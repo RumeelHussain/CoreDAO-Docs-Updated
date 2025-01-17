@@ -1,22 +1,22 @@
 {
   "title": {
-    "message": "Core DAO Documentation",
+    "message": "Documentation Core DAO",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Core DAO Logo",
+    "message": "Logo Core DAO",
     "description": "The alt text of navbar logo"
   },
   "item.label.Learn": {
-    "message": "Learn",
+    "message": "Apprendre",
     "description": "Navbar item with label Learn"
   },
   "item.label.Developer Guide": {
-    "message": "Developer Guide",
+    "message": "Guide du Développeur",
     "description": "Navbar item with label Developer Guide"
   },
   "item.label.Run a Node": {
-    "message": "Run a Node",
+    "message": "Exécuter un Nœud",
     "description": "Navbar item with label Run a Node"
   },
   "item.label.Staking & Delegation": {
@@ -24,7 +24,7 @@
     "description": "Navbar item with label Staking & Delegation"
   },
   "item.label.Core API": {
-    "message": "Core API",
+    "message": "API Core",
     "description": "Navbar item with label Core API"
   },
   "item.label.FAQs": {
@@ -32,7 +32,7 @@
     "description": "Navbar item with label FAQs"
   },
   "item.label.Staking API": {
-    "message": "Staking API",
+    "message": "API de Staking",
     "description": "Navbar item with label Staking API"
   },
   "item.label.GitHub": {
