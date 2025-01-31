@@ -11,7 +11,7 @@ sidebar_position: 2
 Dans un souci de transparence, il est recommandé de vérifier tous les contrats sur [Core Scan](https://scan.coredao.org/). Bien qu'il existe plusieurs façons d'effectuer la vérification de contrats, nous recommandons d'utiliser l'outil de vérification officiel de Core, [Core Scan](https://scan.coredao.org/), pour une fiabilité optimale. Voici un aperçu des méthodes les plus courantes pour vérifier les contrats via le web, l'API et Hardhat.
 
 :::note
-Assurez-vous que votre contrat intelligent suit les [Solidity Support Guidelines de Core Chain](/i18n/fr/docusaurus-plugin-content-docs/current/Dev-Guide/smart-contract-guidelines.md). Pour ce faire, assurez-vous que le paramètre `evmVersion` est défini sur `paris` dans les paramètres du compilateur Solidity.
+Assurez-vous que votre contrat intelligent suit les [Solidity Support Guidelines de Core Chain](smart-contract-guidelines.md). Pour ce faire, assurez-vous que le paramètre `evmVersion` est défini sur `paris` dans les paramètres du compilateur Solidity.
 :::
 
 ## Vérification Web via Core Scan
@@ -26,7 +26,6 @@ La vérification Web est la stratégie de vérification de contrat intelligent l
 2. Recherchez le contrat par adresse sur Core Scan. Il suffit de coller l'adresse du contrat dans la barre de recherche du site web.
 3. Une fois le contrat localisé, sélectionnez l'onglet **Contract** et cliquez sur **Verify and Publish**_._
 
-<!-- ![verify-core-scan](../../static/img/contract-verification/contract-verify-1.avif) -->
 ![verify-core-scan](../../../../../static/img/contract-verification/contract-verify-1.avif)
 
 4\. Remplissez les informations de vérification requises, notamment :
@@ -124,6 +123,7 @@ module.exports = {
        {
           version: '0.8.9',
           settings: {
+            evmVersion: "shanghai",
              optimizer: {
                 enabled: false,
                 runs: 200,

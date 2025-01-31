@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ---
 
-A continuación se muestra una lista de direcciones precompiladas del ecosistema Core Chain.
+A continuación se muestra una lista de direcciones precompiladas del ecosistema Core.
 
 | **Nombre**                            | **Direccion**                                                                                                               |
 | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |

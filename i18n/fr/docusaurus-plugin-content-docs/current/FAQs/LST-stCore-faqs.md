@@ -10,7 +10,7 @@ sidebar_position: 2
 
 ### 1. Qu'est-ce que stCORE ?
 
-stCORE est une solution innovante de la Core Chain conçue pour améliorer l'utilité des tokens CORE en introduisant le liquid staking. Cela permet aux détenteurs de tokens CORE de maximiser le potentiel de leurs actifs avec une plus grande flexibilité et efficacité. Le processus implique le staking de tokens CORE pour sécuriser le réseau tout en obtenant simultanément de la liquidité via l'émission de tokens stCORE, qui peuvent être utilisés dans divers protocoles DeFi.
+stCORE est une solution innovante sur la blockchain Core conçue pour améliorer l'utilité des tokens CORE en introduisant le liquid staking. Cela permet aux détenteurs de tokens CORE de maximiser le potentiel de leurs actifs avec une plus grande flexibilité et efficacité. Le processus implique le staking de tokens CORE pour sécuriser le réseau tout en obtenant simultanément de la liquidité via l'émission de tokens stCORE, qui peuvent être utilisés dans divers protocoles DeFi.
 
 ### 2. Quels sont les avantages du liquid staking avec stCORE ?
 

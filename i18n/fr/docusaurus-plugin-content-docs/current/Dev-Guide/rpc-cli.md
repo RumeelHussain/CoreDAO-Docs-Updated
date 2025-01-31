@@ -16,9 +16,9 @@ Les appels de procédure à distance (RPCs) sont une solution à ce problème. L
 
 Pour simplifier, vous pouvez voir un RPC comme étant essentiellement l’opposé d’un oracle. Le [but d’un oracle](https://cointelegraph.com/learn/what-is-a-blockchain-oracle-and-how-does-it-work) est de prendre des données externes (comme les résultats d’une élection ou les prévisions météorologiques) et de les transférer vers une blockchain, tandis que le but d’un RPC est de prendre des données internes (comme des informations liées aux transactions et aux blocs) et de les transférer hors de la blockchain.
 
-## Quels fournisseurs de RPC puis-je utiliser pour me connecter au Mainnet du réseau Core ?
+## Quels fournisseurs de RPC puis-je utiliser pour me connecter au Mainnet du réseau Core?
 
-La Core Chain prend en charge différents [fournisseurs de RPC](https://chainlist.org/chain/1116) — à la fois le RPC natif de Core et des fournisseurs de RPC tiers. Consultez la liste complète des points de terminaison RPC [ici](/i18n/fr/docusaurus-plugin-content-docs/current/Dev-Guide/rpc-list.md) pour vous connecter au mainnet ou au testnet de Core.
+Core prend en charge différents [fournisseurs de RPC](https://chainlist.org/chain/1116) — à la fois le RPC natif de Core et des fournisseurs de RPC tiers. Consultez la liste complète des points de terminaison RPC [ici](./rpc-list.md) pour vous connecter au mainnet ou au testnet de Core.
 
 ## Utilisation des RPCs via la ligne de commande
 
@@ -28,7 +28,7 @@ Nous pouvons utiliser CURL pour se connecter aux points de terminaison RPC de CO
     curl https://coredao.org/
 ```
 
-La commande ci-dessous illustre comment CURL peut être utilisé pour obtenir des informations relatives à une transaction spécifique sur la Core Chain en passant le hash de la transaction et quelques autres paramètres.
+La commande ci-dessous illustre comment CURL peut être utilisé pour obtenir des informations relatives à une transaction spécifique sur la blockchain Core en passant le hash de la transaction et quelques autres paramètres.
 
 ```bash
 curl -H "Content-Type: application/json" \
@@ -95,5 +95,4 @@ response = requests.post('https://rpc.ankr.com/core', headers=headers, data=data
 print(response.content)
 ```
 
-Pour utiliser n'importe quelle autre URL RPC autre que celle utilisée dans l'exemple ci-dessus, remplacez simplement l'URL RPC https://rpc.ankr.com/core par l'un des [points de terminaison RPC pris en charge](#quels-fournisseurs-de-rpc-puis-je-utiliser-pour-me-connecter-au-mainnet-du-réseau-core-).
- 
+Pour utiliser n'importe quelle autre URL RPC autre que celle utilisée dans l'exemple ci-dessus, remplacez simplement l'URL RPC https://rpc.ankr.com/core par l'un des points de terminaison RPC pris en charge.

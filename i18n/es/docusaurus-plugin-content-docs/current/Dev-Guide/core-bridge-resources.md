@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ---
 
-El [Core Bridge](https://bridge.coredao.org/) funciona con LayerZero y permite transferencias de activos fluidas entre Core y el mundo blockchain en general. Core Bridge consta de dos partes: contratos LayerZero en Core que facilitan las transferencias entre cadenas y un conjunto de contratos puente o token implementados tanto en Core como en cada blockchain a la que está conectado. El código base del puente auditado se puede encontrar [aquí](https://github.com/LayerZero-Labs/wrapped-asset-bridge), y la lista completa de direcciones de contrato de tokens de puente se puede encontrar [aquí](/i18n/es/docusaurus-plugin-content-docs/current/Dev-Guide/core- bridge-resources.md).
+El [Core Bridge](https://bridge.coredao.org/) funciona con LayerZero y permite transferencias de activos fluidas entre Core y el mundo blockchain en general. Core Bridge consta de dos partes: contratos LayerZero en Core que facilitan las transferencias entre cadenas y un conjunto de contratos puente o token implementados tanto en Core como en cada blockchain a la que está conectado. El código base del puente auditado se puede encontrar [aquí](https://github.com/LayerZero-Labs/wrapped-asset-bridge), y la lista completa de direcciones de contrato de tokens de puente se puede encontrar [aquí](./core- bridge-resources.md).
 
 ### LayerZero
 

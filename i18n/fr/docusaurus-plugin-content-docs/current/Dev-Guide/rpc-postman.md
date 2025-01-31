@@ -32,7 +32,7 @@ Dans ce document, nous allons couvrir les bases de l'utilisation d'un point de t
 
 ![new-workspace-postman](../../../../../static/img/rpc/postman/rpc-psotman-4.png)
 
-5. Commencez par changer la requête de `GET` à `POST`, car c'est ainsi que notre requête sera structurée. Ensuite, ajoutez l'URL RPC que vous souhaitez utiliser pour obtenir des informations relatives à une transaction spécifique de la Core Chain. N'oubliez pas que vous pouvez utiliser n'importe quelle [URL RPC valide de Core](/i18n/fr/docusaurus-plugin-content-docs/current/Dev-Guide/rpc-list.md).
+5. Commencez par changer la requête de `GET` à `POST`, car c'est ainsi que notre requête sera structurée. Ensuite, ajoutez l'URL RPC que vous souhaitez utiliser pour obtenir des informations relatives à une transaction spécifique de la Core blockchain. N'oubliez pas que vous pouvez utiliser n'importe quelle [URL RPC valide de Core](./rpc-list.md).
 
 ![set-request-type-postman](../../../../../static/img/rpc/postman/rpc-psotman-5.png)
 

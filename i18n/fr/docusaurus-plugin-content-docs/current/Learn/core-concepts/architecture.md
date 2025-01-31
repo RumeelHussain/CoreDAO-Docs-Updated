@@ -9,7 +9,7 @@ description: Aperçu rapide de l'architecture sous-jacente de la blockchain de C
 
 ---
 
-L'architecture de la blockchain Core se concentre sur son mécanisme de consensus Satoshi Plus, une approche tripartite qui combine la Preuve de Travail Déléguée (DPoW), la Preuve de Stake Déléguée (DPoS) et le Staking Non-Custodial de Bitcoin. En plus de la sécurité offerte par Satoshi Plus, l'infrastructure de Core inclut également un actif Bitcoin "bridgé" à confiance minimale sous forme de coreBTC, des transactions peer-to-peer Bitcoin \<\> Core sans confiance avec des swaps atomiques HTLC, et plus encore.
+L'architecture de la blockchain Core se concentre sur son mécanisme de consensus Satoshi Plus, une approche tripartite qui combine la Preuve de Travail Déléguée (DPoW), la Preuve de Stake Déléguée (DPoS) et le Staking Non-Custodial de Bitcoin. En plus de la sécurité offerte par Satoshi Plus, l'infrastructure de Core inclut également un actif Bitcoin "bridgé" à confiance minimale sous forme de coreBTC, des transactions peer-to-peer Bitcoin `<>` Core sans confiance avec des swaps atomiques HTLC, et plus encore.
 
 Grâce à Satoshi Plus, les mineurs de Bitcoin, les pools de minage, les stakers de tokens CORE et les stakers de Bitcoin participent à l'élection des validateurs pour sécuriser Core. Ces validateurs sont élus par ces trois groupes en fonction d'un score hybride, calculé selon la quantité de puissance de hachage déléguée, de tokens CORE délégués/stakés, et de Bitcoin délégué/staké, fournie respectivement par les mineurs/pools de minage de Bitcoin, les stakers de tokens CORE et les stakers de Bitcoin.
 
@@ -33,7 +33,7 @@ En outre, Satoshi Plus bénéficie actuellement de la sécurité de ~55 % des ef
 
 - **Stakers de Bitcoin :** Le troisième volet du consensus de Satoshi Plus est le staking de Bitcoin non-custodial, qui permet, à n’importe quel détenteur de Bitcoin, de gagner un rendement en stakant leurs tokens bitcoin sans renoncer à leur garde.
 
-- **Relayeurs :** Les relayeurs transmettent les entêtes de bloc Bitcoin au réseau Core. N’importe qui peut devenir un relayeur en s’enregistrant et bloquant un dépôt de token CORE remboursable.
+- **Relayeurs** Les relayeurs transmettent les blocs Bitcoin et les données de transaction au réseau Core. N’importe qui peut devenir un relayeur en s’enregistrant et bloquant un dépôt de token CORE remboursable.
 
 - **Vérificateurs :** Les vérificateurs sont responsables de signaler tout comportement malveillant sur le réseau. Un signalement de la sorte lors d’une vérification peut entraîner une pénalisation du validateur sur ses récompenses ou stakes, ou l’emprisonnement direct, et les vérificateurs sont rémunérés pour ce contrôle d’activité lorsque les récompenses du bloc sont distribuées. N’importe qui peut être vérificateur sur le réseau Core.
 

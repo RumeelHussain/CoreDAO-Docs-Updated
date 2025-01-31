@@ -13,7 +13,7 @@ Ce guide utilisateur est conçu pour vous accompagner à travers le processus de
 Pour pouvoir staker, vous devez disposer des éléments suivants :
 
 1. **Extension de navigateur de portefeuille Bitcoin pris en charge :** Pour participer au processus de staking de BTC, vous devez installer les extensions de navigateur de l'un des portefeuilles Bitcoin pris en charge, comme [Xverse](https://chromewebstore.google.com/detail/xverse-wallet/idnnbdplmphpflfnlkomgpfbpcgelopg?hl=en-GB\&authuser=1), [Unisat](https://chromewebstore.google.com/detail/unisat-wallet/ppbibelpcjmhbdihakflkdcoccbgbkpo), et/ou [OKX Wallet](https://chromewebstore.google.com/detail/okx-wallet/mcohilncbfahbmgdjkbpemcciiolgcge) (visitez stake.coredao.org pour les portefeuilles les plus récents pris en charge). Vous devez utiliser une version de bureau, car les portefeuilles mobiles et matériels ne sont pas actuellement pris en charge. Vous pouvez également staker directement en utilisant l'application mobile du portefeuille Element.
-2. **Adresse de portefeuille Core pour les récompenses :** Préparez votre adresse de portefeuille Core pour staker du CORE et recevoir [des récompenses en tokens CORE pour le staking de Bitcoin](/i18n/fr/docusaurus-plugin-content-docs/current/Learn/products/btc-staking/stake-btc-guide.md) et de CORE. Si vous n'avez pas d'adresse de portefeuille Core, vous pouvez rapidement en créer une en vous connectant à MetaMask. Pour plus d'informations sur la configuration de MetaMask pour fonctionner avec le réseau Core, suivez le guide détaillé [ici](/i18n/fr/docusaurus-plugin-content-docs/current/Dev-Guide/core-mainnet-wallet-config.md).
+2. **Adresse de portefeuille Core pour les récompenses :** Préparez votre adresse de portefeuille Core pour staker du CORE et recevoir [des récompenses en tokens CORE pour le staking de Bitcoin](https://docs.coredao.org/docs/Learn/products/btc-staking/stake-btc-guide#prerequisites) et de CORE. Si vous n'avez pas d'adresse de portefeuille Core, vous pouvez rapidement en créer une en vous connectant à MetaMask. Pour plus d'informations sur la configuration de MetaMask pour fonctionner avec le réseau Core, suivez le guide détaillé [ici](https://docs.coredao.org/docs/Dev-Guide/core-mainnet-wallet-config).
 
 ## Considérations Clés pour le Dual Staking
 
@@ -146,7 +146,7 @@ Le Dual Staking est une amélioration du staking de BTC Non-custodial de Core, p
   - Dans notre exemple, nous déléguerons 0,05 Bitcoin, ce qui satisfait à cette exigence
 - Définir le temps de verrouillage détermine quand votre Bitcoin staké sera déverrouillé et à nouveau disponible pour le rachat ou la redélégation.
   - Sélectionnez à l'intérieur de la boîte de temps de verrouillage pour entrer des valeurs, ou cliquez sur l'icône du calendrier pour sélectionner la date et cliquez sur ’OK’ pour continuer.
-  - The default lock time is set to a month in advance.
+  - Le temps de verrouillage par défaut est fixé à un mois à l'avance.
 - Spécifier la priorité du réseau pour votre transaction
 
 <p align="center">

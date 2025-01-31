@@ -19,10 +19,7 @@ En el ecosistema Core, la delegación es un mecanismo fundamental que permite a 
 
 ### 3. ¿Cuáles son los beneficios de delegar tokens BTC o CORE?
 
-Al delegar CORE a los validadores, los titulares de CORE pueden ayudar a proteger la red y compartir las recompensas del sistema. Consulte la [guía] detallada (../stake-and-delegate/delegating-core) en CORE Delegation para obtener más detalles.
-
-<!-- ### 4. What are the minimum staking period requirements for BTC and BTC Hash Power delegation?
-For BTC and BTC hash power delegation the minimum requirement is that of **10** days, i.e., you cannot un-delegate your stake prior to **10** days. Technically, (\`CLTV timestamp - transaction confirmation timestamp > 10 days\`). -->
+Al delegar CORE a los validadores, los titulares de CORE pueden ayudar a proteger la red y compartir las recompensas del sistema. Consulte la [guía detallada](../stake-and-delegate/delegating-core.md) en CORE Delegation para obtener más detalles.
 
 ### 4. ¿Existe alguna tarifa asociada con la delegación de tokens BTC o CORE o poder hash?
 
@@ -30,7 +27,7 @@ Este tipo de delegación permite a los poseedores de tokens BTC y CORE apoyar a 
 
 ### 5. ¿Cómo se delega el poder hash en Core netowrk?
 
-Al delegar el poder de hash a los validadores, los mineros de BTC pueden ayudar a proteger la red y participar en las recompensas del sistema. Consulte la [guía] detallada (../stake-and-delegate/delegating-hash) sobre delegación de poder hash para obtener más detalles.
+Al delegar el poder de hash a los validadores, los mineros de BTC pueden ayudar a proteger la red y participar en las recompensas del sistema. Consulte la [guía detallada](../stake-and-delegate/delegating-hash.md) sobre delegación de poder hash para obtener más detalles.
 
 ### 6. ¿Cómo puede un delegado maximizar sus recompensas?
 
@@ -56,7 +53,7 @@ Aparte de la tarifa de transacción/cargos de gas, Core no cobra ninguna tarifa 
 
 ### 10. ¿Cómo pueden los delegados reclamar sus recompensas?
 
-Consulte la guía detallada [aquí](/i18n/es/docusaurus-plugin-content-docs/current/stake-and-delegate/delegating-core.md) sobre Cómo reclamar recompensas obtenidas mediante apuestas de BTC y CORE. En caso de delegación de BTC Hash Power, consulte [aquí](/i18n/es/docusaurus-plugin-content-docs/current/stake-and-delegate/delegating-hash.md).
+Consulte la guía detallada [aquí](../stake-and-delegate/delegating-core.md) sobre Cómo reclamar recompensas obtenidas mediante apuestas de BTC y CORE. En caso de delegación de BTC Hash Power, consulte [aquí](../stake-and-delegate/delegating-hash.md).
 
 ### 11. ¿Qué pasa si un validador deja de funcionar o es penalizado?
 

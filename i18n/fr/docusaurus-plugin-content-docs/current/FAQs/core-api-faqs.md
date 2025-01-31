@@ -16,11 +16,11 @@ Consultez la documentation complète de l'API disponible [ici](https://docs.core
 
 ### 2. Comment puis-je accéder à l'API Core Scan ?
 
-Pour accéder à l'API Core Scan, vous devez avoir un compte enregistré sur Core Scan. Consultez [ici](https://docs.coredao.org/docs/api/tutorials/creating-an-account) le guide détaillé pour savoir comment procéder. De plus, vous aurez besoin de générer une clé API à partir de ce compte enregistré. Consultez [ici](https://docs.coredao.org/docs/api/tutorials/generate-an-api-key) le guide détaillé pour plus d'informations.
+Pour accéder à l'API Core Scan, vous devez avoir un compte enregistré sur Core Scan. Consultez [ici](../api/tutorials/creating-an-account.md) le guide détaillé pour savoir comment procéder. De plus, vous aurez besoin de générer une clé API à partir de ce compte enregistré. Consultez [ici](../api/tutorials/generate-an-api-key.md) le guide détaillé pour plus d'informations.
 
 ### 3. Comment créer des clés API pour les utiliser avec l'API Core Scan ?
 
-Pour générer des clés API à l'aide d'un compte enregistré sur Core Scan, reportez-vous au guide détaillé [ici](https://docs.coredao.org/docs/api/tutorials/generate-an-api-key).
+Pour générer des clés API à l'aide d'un compte enregistré sur Core Scan, reportez-vous au guide détaillé [ici](../api/tutorials/generate-an-api-key.md).
 
 ### 4. Mes clés API ne fonctionnent pas, que puis-je faire ?
 
@@ -48,4 +48,4 @@ Un appel API qui rencontre une erreur renverra 0 comme code de statut et affiche
 
 ### 7. Que dois-je faire si je rencontre des problèmes ou des bugs avec l'API ?
 
-Référez-vous à la documentation officielle de l'API pour les [messages de problèmes courants](https://docs.coredao.org/docs/api/tutorials/common-error-messages). Si le problème persiste, contactez-nous sur notre serveur [Discord](https://discord.com/invite/coredaoofficial) officiel.
+Référez-vous à la documentation officielle de l'API pour les [messages de problèmes courants](../api/tutorials/common-error-messages.md). Si le problème persiste, contactez-nous sur notre serveur [Discord](https://discord.com/invite/coredaoofficial) officiel.

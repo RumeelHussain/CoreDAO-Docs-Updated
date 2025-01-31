@@ -8,18 +8,18 @@ sidebar_position: 2
 
 ---
 
-### 1. ¿Cuáles son los diferentes tipos de nodos admitidos por Core Chain?
+### 1. ¿Cuáles son los diferentes tipos de nodos admitidos en la cadena de bloques Core?
 
 En la red Core, un nodo completo Core almacena el historial completo de la cadena de bloques Core, lo que permite a cualquiera verificar el estado de cualquier cuenta. Un nodo completo Core puede adoptar muchas formas:
 
-- Nodo completo normal: para uso privado.
-- Nodo completo validador: actúa como validador en Core, validando bloques y transacciones.
-- Nodo completo RPC: proporciona servicios RPC y responde a solicitudes HTTP.
+- **Nodo completo normal:** para uso privado.
+- **Nodo completo del validador:** actúa como validador en el Core, validando bloques y transacciones.
+- **Nodo completo RPC:** proporciona servicios RPC y responde a solicitudes HTTP.
 
 Aparte de este Core también es compatible
 
-- Nodo de archivo: almacena todos los datos de la cadena de bloques en Core Chain desde el bloque de génesis.
-- Nodos de instantáneas: almacena instantáneas para ayudar a otros nodos a acelerar la sincronización con la red.
+- **Nodo de archivo:** almacena todos los datos de la cadena de bloques de Core desde el bloque de génesis.
+- **Nodos de instantáneas:** almacena instantáneas para ayudar a otros nodos a acelerar la sincronización con la red.
 
 ### 2. ¿Cuáles son los beneficios de ejecutar un Core Node?
 
@@ -44,7 +44,7 @@ Un nodo completo de Core almacena el historial completo de la cadena de bloques 
 | RAM                   | 8 Gigabytes                                                                       |
 | Velocidad de Internet | Una conexión a Internet de banda ancha con velocidades de carga/descarga de 5Mbps |
 
-Para obtener más detalles, consulte la [Guía de configuración de nodos completos] (/i18n/es/docusaurus-plugin-content-docs/current/Node/Full-Node/on-testnet.md)
+Para obtener más detalles, consulte la [Guía de configuración de nodos completos] (../Node/Full-Node/on-testnet.md)
 
 **Especificaciones de hardware del nodo completo de Mainnet**
 
@@ -55,7 +55,7 @@ Para obtener más detalles, consulte la [Guía de configuración de nodos comple
 | RAM                   | 32 Gigabytes                                                                      |
 | Velocidad de Internet | Una conexión a Internet de banda ancha con velocidades de carga/descarga de 5Mbps |
 
-Para obtener más detalles, consulte la [Guía de configuración de nodos completos] (/i18n/es/docusaurus-plugin-content-docs/current/Node/Full-Node/on-testnet.md)
+Para obtener más detalles, consulte la [Guía de configuración de nodos completos] (../Node/Full-Node/on-testnet.md)
 
 ### 4. ¿Qué es un nodo RPC de Core? ¿Cuáles son los requisitos de hardware/software para ejecutar un nodo Core RPC?
 
@@ -81,7 +81,7 @@ Los nodos RPC (llamada a procedimiento remoto) en la red Core desempeñan un pap
 | RAM                   | 32 Gigabytes                                                                                                                                                                                   |
 | Velocidad de Internet | Una conexión a Internet de banda ancha con velocidades de carga/descarga de 50Mbps                                                                                                             |
 
-Para obtener más detalles, consulte la [Guía de configuración de nodos RPC] (/i18n/es/docusaurus-plugin-content-docs/current/Node/config/rpc-node-config.md)
+Para obtener más detalles, consulte la [Guía de configuración de nodos RPC](../Node/config/rpc-node-config.md)
 
 ### 5. ¿Qué es un nodo validador central? ¿Cuáles son los requisitos de hardware/software para ejecutar un nodo Core Validator?
 
@@ -107,16 +107,8 @@ Los validadores son cruciales para proteger la red mediante la producción de bl
 | RAM                   | 32 Gigabytes                                                                                                                                                                                   |
 | Velocidad de Internet | Una conexión a Internet de banda ancha con velocidades de carga/descarga de 10Mbps                                                                                                             |
 
-Para obtener más detalles, consulte la [Guía de configuración del nodo validador] (/i18n/es/docusaurus-plugin-content-docs/current/Node/config/validator-node-config.md)
+Para obtener más detalles, consulte la [Guía de configuración del nodo validador] (../Node/config/validator-node-config.md)
 
-### 6. ¿Cómo configuro un nodo completo de Core Chain?
+### 6. ¿Cómo configuro un nodo completo en Core blockchain?
 
-Consulta la guía detallada [aquí](/i18n/es/docusaurus-plugin-content-docs/current/Node/Full-Node/on-mainnet.md) sobre cómo configurar y ejecutar un nodo completo en la red principal.
-
-<!-- ### 7. How can I secure my Core Chain full node?
-
-### 8. Where can I get support if I have problems with my Core Chain full node?
-
-### 9. Are there any third-party infrastructure providers to help manage a Core Chain full node?
-
-### 10. How to gracefully shut down a Core Chain node when running as a system service? -->
+Consulte la guía detallada [aquí](../Node/Full-Node/on-mainnet.md) sobre cómo configurar y ejecutar un nodo completo en la red Core.

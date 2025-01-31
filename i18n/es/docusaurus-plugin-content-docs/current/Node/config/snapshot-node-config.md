@@ -44,13 +44,13 @@ Para los nodos Sanpshot en **Core Blockchain Mainnet**, recomendamos las siguien
 | RAM                   | 16 Gigabytes                                                                      |
 | Velocidad de Internet | Una conexión a Internet de banda ancha con velocidades de carga/descarga de 5Mbps |
 
-## Instantáneas de la cadena Core
+## Instantáneas de la red central
 
 Puede obtener las instantáneas más recientes desde [aquí](https://github.com/coredao-org/core-snapshots).
 
-## Sincronización de nodos mediante instantáneas en la red Core Chain
+## Sincronización de nodos mediante instantáneas en la red central
 
-En la red Core Chain, puede sincronizar su nodo con el estado más reciente de varias maneras. En este documento, lo guiamos a través del proceso de sincronización de nodos en la red Core utilizando las instantáneas.
+En la red Core, puede sincronizar su nodo con el estado más reciente de varias maneras. En este documento, lo guiamos a través del proceso de sincronización de nodos en la red Core utilizando las instantáneas.
 
 ### Descargar binarios precompilados
 
@@ -133,4 +133,3 @@ Hay dos modos de sincronización para ejecutar un nodo completo: **snap** y **fu
 - El modo de sincronización **completa** también se puede utilizar para realizar una sincronización inicial, que ejecutará todos los bloques desde su génesis. Pero **no se recomienda**, ya que la cantidad de datos históricos es demasiado grande. En su lugar, puede descargar una instantánea del [repositorio oficial](https://github.com/coredao-org/core-snapshots) e iniciar la sincronización completa desde la instantánea.
 
 - Si no se proporciona la marca **--syncmode**, el modo de sincronización predeterminado dependerá del estado de la carpeta de datos. Será el modo **instantáneo** si sincroniza desde génesis o el modo **completo** si comienza desde una instantánea.
-  2

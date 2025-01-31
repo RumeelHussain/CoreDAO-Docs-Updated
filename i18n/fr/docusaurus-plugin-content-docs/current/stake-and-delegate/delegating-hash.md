@@ -20,7 +20,7 @@ Voyons comment les mineurs de BTC ou les pools de minage peuvent déléguer leur
 Pour plus d'informations sur la blockchain Core et le consensus Satoshi Plus, veuillez consulter le [Livre Blanc Technique](https://whitepaper.coredao.org/).
 :::
 
-### Implémentation {#implementation}
+### Implémentation
 
 Les mineurs et pools de minage de Bitcoin doivent composer les informations suivantes dans ce format et les placer dans le bloc Bitcoin :
 

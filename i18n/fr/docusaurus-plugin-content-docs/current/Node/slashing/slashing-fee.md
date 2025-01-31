@@ -10,7 +10,7 @@ sidebar_position: 2
 
 ## Indisponibilité
 
-Les pénalités de slashing sont généralement appliquées lorsqu'un nœud ne parvient pas à produire un bloc pendant son tour désigné dans la procédure de minage en round-robin, comme décrit dans la section [Élection des validateurs](/i18n/fr/docusaurus-plugin-content-docs/current/Node/validator/validator-election.md).
+Les pénalités de slashing sont généralement appliquées lorsqu'un nœud ne parvient pas à produire un bloc pendant son tour désigné dans la procédure de minage en round-robin, comme décrit dans la section [Élection des validateurs](../validator/validator-election.md).
 
 - Si un validateur ne parvient pas à miner **50 blocs** consécutifs, les récompenses en tokens CORE accumulées sont complètement supprimées.
 - Si un nœud validateur ne parvient pas à miner les **49 premiers blocs** d'un tour, puis manque le dernier bloc du même tour, cela entraînera le slashing de l'ensemble des récompenses en tokens CORE que le validateur a accumulées jusqu'à présent.

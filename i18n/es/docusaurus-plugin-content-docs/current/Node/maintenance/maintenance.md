@@ -65,4 +65,4 @@ Cuando el nodo falla o se cierra a la fuerza, el nodo se sincronizará desde un 
 
 ## Actualizar Geth
 
-Lea [esta guía](/i18n/es/docusaurus-plugin-content-docs/current/Node/maintenance/network-upgrade.md)
+Lea [esta guía](network-upgrade.md)

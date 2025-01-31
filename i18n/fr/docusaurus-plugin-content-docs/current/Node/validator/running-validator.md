@@ -10,7 +10,7 @@ sidebar_position: 2
 
 ## Requis Systèmes
 
-Il y a plusieurs exigences systèmes pour configurer un nœud validateur sur le réseau Core. Veuillez vous référer [ici](/i18n/fr/docusaurus-plugin-content-docs/current/Node/config/validator-node-config.md) et vous assurer que vous avez les exigences matérielles et logicielles nécessaires avant de lancer un nœud validateur. En outre, assurez-vous d'enregistrer correctement votre nœud validateur en consultant les lignes directives détaillées [ici](/i18n/fr/docusaurus-plugin-content-docs/current/Node/validator/validator-register.md).
+Il y a plusieurs exigences systèmes pour configurer un nœud validateur sur le réseau Core. Veuillez vous référer [ici](../config/validator-node-config.md) et vous assurer que vous avez les exigences matérielles et logicielles nécessaires avant de lancer un nœud validateur. En outre, assurez-vous d'enregistrer correctement votre nœud validateur en consultant les lignes directives détaillées [ici](./validator-register.md).
 
 ## Compilation et Exécution
 
@@ -47,7 +47,7 @@ Si vous prévoyez d'exécuter un nœud validateur, vous devez configurer la clé
 geth account new --datadir ./node
 echo {your-password} > password.txt
 # start a validator node
-geth --config ./config.toml --datadir ./node -unlock {your-validator-address} --password password.txt  --mine  --allow-insecure-unlock  --cache 8000
+geth --config ./config.toml --datadir ./node -unlock {your-validator-address} --miner.etherbase {your-validator-address} --password password.txt  --mine  --allow-insecure-unlock  --cache 8000
 ```
 
 5\. Pendant que notre nœud validateur fonctionne, nous pouvons surveiller ses journaux pour nous assurer que tout fonctionne correctement. Le fichier de journal se trouve par défaut à `./node/logs/core.log`, mais vous pouvez le changer vers un autre emplacement si nécessaire.

@@ -11,7 +11,7 @@ sidebar_position: 2
 En el interés de la transparencia, nosotros recomendamos verificar todos los contratos en [Core Scan](https://scan.coredao.org/). Si bien existen varias formas de lograr la verificación del contrato, recomendamos utilizar la herramienta de verificación oficial de Core, [Core Scan](https://scan.coredao.org/), para una confiabilidad óptima. Este documento lo guía a través de los métodos más utilizados para la verificación de contratos: la herramienta web Core Scan, la API REST de Core y el complemento Hardhat Verification.
 
 :::note
-Asegúrese de que su contrato inteligente siga las [Pautas de soporte de solidez de Core Chain] (/i18n/es/docusaurus-plugin-content-docs/current/Dev-Guide/smart-contract-guidelines.md). Para ello, asegúrese de que el parámetro `evmVersion` esté establecido en `paris` en la configuración del compilador de solidity.
+Asegúrese de que su contrato inteligente siga las [Pautas de soporte de solidez de Core Chain] (./smart-contract-guidelines.md). Para ello, asegúrese de que el parámetro `evmVersion` esté establecido en `paris` en la configuración del compilador de solidity.
 :::
 
 ## Verificación web mediante Core Scan
@@ -21,7 +21,7 @@ La verificación web es la estrategia de verificación de contratos inteligentes
 1. Vaya al sitio web de Core Scan.
 
 - [Para la red principal](https://scan.coredao.org/)
-- Busque el contrato por dirección en [Core Scan](https://scan.test.btcs.network).
+- Busque el contrato por dirección en [Core Scan](https://scan.test2.btcs.network).
 
 2. Busque el contrato por dirección en Core Scan. Simplemente pegue la dirección del contrato en la barra de búsqueda del sitio web.
 3. Después de ubicar el contrato, seleccione la pestaña **Contrato** y haga clic en **Verificar y publicar**_._
@@ -83,9 +83,9 @@ module.exports = {
      hardhat: {
      },
      testnet: {
-        url: 'https://rpc.test.btcs.network',
+        url: 'https://rpc.test2.btcs.network',
         accounts: [PrivateKey],
-        chainId: 1115,
+        chainId: 1114,
      },
      mainnet: {
        url: 'https://rpc.coredao.org',
@@ -95,16 +95,16 @@ module.exports = {
   },
   etherscan: {
    apiKey: {
-     testnet: "api key",
-     mainnet: "api key"
+     testnet: "api key", //Replace with your API key
+     mainnet: "api key"  //Replace with your API key
    },
    customChains: [
      {
        network: "testnet",
-       chainId: 1115,
+       chainId: 1114,
        urls: {
          apiURL: "https://api.test.btcs.network/api",
-         browserURL: "https://scan.test.btcs.network/"
+         browserURL: "https://scan.test2.btcs.network/"
        }
      },
      {
@@ -121,8 +121,9 @@ module.exports = {
   solidity: {
      compilers: [
        {
-          version: '0.8.9',
+          version: '0.8.24',
           settings: {
+            evmVersion: "shanghai",
              optimizer: {
                 enabled: false,
                 runs: 200,
@@ -145,6 +146,6 @@ module.exports = {
 
 ## Limitaciones conocidas
 
-- Actualmente, Core solo admite versiones del compilador solc hasta 0.8.19.
+- Actualmente, Core solo admite versiones del compilador solc hasta 0.8.24.
 - Las bibliotecas no son compatibles con las verificaciones API.
 - Si tiene problemas al verificar contratos de un solo archivo muy grandes (más de 1000 líneas), le recomendamos cambiar al formato "JSON estándar" para la verificación.

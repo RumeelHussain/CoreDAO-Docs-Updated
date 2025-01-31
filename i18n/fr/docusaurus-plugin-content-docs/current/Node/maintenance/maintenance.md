@@ -65,4 +65,4 @@ Lorsque le nœud plante ou est tué de force, il synchronisera à partir d'un bl
 
 ## Mise à Jour de Geth
 
-Veuillez consulter [ce guide](../../../../../../i18n/fr/docusaurus-plugin-content-docs/current/Node/maintenance/network-upgrade.md)
+Veuillez consulter [ce guide](network-upgrade.md)

@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ---
 
-Los nodos de archivo en la red Core desempeñan un papel crucial en el mantenimiento del estado histórico completo de la red. Estos nodos son versiones especializadas de nodos completos con capacidades mejoradas diseñadas para almacenar y brindar acceso al historial completo de todas las transacciones y estados desde el inicio de Core Chain.
+Los nodos de archivo en la red Core desempeñan un papel crucial en el mantenimiento del estado histórico completo de la red. Estos nodos son versiones especializadas de nodos completos con capacidades mejoradas diseñadas para almacenar y brindar acceso al historial completo de todas las transacciones y estados desde el inicio del Core.
 
 ## Requisitos del sistema
 
@@ -46,9 +46,9 @@ Para los nodos de archivo en **Core Blockchain Mainnet**, recomendamos las sigui
 
 ## Ejecución del nodo de archivo principal
 
-1\. Recomendamos utilizar el repositorio de GitHub [core-chain](https://github.com/coredao-org/core-chain) para construir y ejecutar directamente su nodo completo, ejecutando su nodo completo directamente desde nuestra base de código blockchain. Las instrucciones para crear el código fuente se pueden encontrar en el [README] del repositorio (https://github.com/coredao-org/core-chain#building-the-source).
+1\. Recomendamos utilizar el repositorio de GitHub [core-chain](https://github.com/coredao-org/core-chain) para construir y ejecutar directamente su nodo completo, ejecutando su nodo completo directamente desde nuestra base de código blockchain. Las instrucciones para crear el código fuente se pueden encontrar en el [README del repositorio](https://github.com/coredao-org/core-chain#building-the-source).
 
-2\. Descargue el último binario de nodo de Core Chain GitHub [repositorio de versiones](https://github.com/coredao-org/core-chain/releases/latest) y la última instantánea para el nodo de archivo del [repositorio de instantáneas de Core](https://github.com/coredao-org/core-snapshots?tab=readme-ov-file#archive-full). El binario del nodo incluye los archivos de configuración relevantes de mainnet y testnet.
+2\. Descargue el binario de nodo más reciente desde GitHub de Core [repositorio de versiones](https://github.com/coredao-org/core-chain/releases/latest) y la última instantánea para el nodo de archivo desde el [repositorio de instantáneas de Core](https://github.com/coredao-org/core-snapshots?tab=readme-ov-file#archive-full). El binario del nodo incluye los archivos de configuración relevantes de mainnet y testnet.
 
 3\. Escriba el estado de génesis localmente ejecutando el siguiente comando desde el directorio de su proyecto:
 

@@ -18,7 +18,7 @@ Si te ayuda, puedes pensar en un RPC como esencialmente lo opuesto a un oráculo
 
 ## ¿Qué proveedores de RPC puedo utilizar para conectarme a Core Network Mainnet?
 
-Core Chain admite diferentes [proveedores de RPC] (https://chainlist.org/chain/1116), tanto proveedores de Core RPC nativos como de terceros. Consulte la lista completa de puntos finales RPC [aquí] (/i18n/es/docusaurus-plugin-content-docs/current/Dev-Guide/rpc-list.md) para conectarse a Core mainnet o testnet.
+Core admite diferentes [proveedores de RPC](https://chainlist.org/chain/1116), tanto proveedores de RPC de Core nativos como de terceros. Consulte la lista completa de puntos finales RPC [aquí](./rpc-list.md) para conectarse a Core mainnet o testnet.
 
 ## Trabajar con RPC a través de la línea de comando
 
@@ -28,7 +28,7 @@ Podemos usar CURL para conectarnos a los puntos finales de CORE RPC a través de
     curl https://coredao.org/
 ```
 
-El siguiente comando ilustra cómo se puede utilizar CURL para obtener información relacionada con una transacción específica en Core Chain pasando el hash de las transacciones y algunos otros parámetros.
+El siguiente comando ilustra cómo se puede utilizar CURL para obtener información relacionada con una transacción específica en la cadena de bloques Core pasando el hash de las transacciones y algunos otros parámetros.
 
 ```bash
 curl -H "Content-Type: application/json" \
@@ -95,4 +95,4 @@ response = requests.post('https://rpc.ankr.com/core', headers=headers, data=data
 print(response.content)
 ```
 
-Para utilizar cualquier otra URL de RPC distinta a la utilizada en el ejemplo anterior, simplemente reemplace la URL de RPC https://rpc.ankr.com/core con uno de los [puntos finales RPC admitidos](# Which-rpc-providers -puedo-usar-para-conectarme-a-la-red-central-mainnet).
+Para utilizar cualquier otra URL de RPC distinta a la utilizada en el ejemplo anterior, simplemente reemplace la URL de RPC https://rpc.ankr.com/core con uno de los puntos finales RPC admitidos.

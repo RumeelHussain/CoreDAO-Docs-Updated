@@ -1,35 +1,35 @@
 ---
-sidebar_label: Descripción general de los nodos que se ejecutan en la cadena central
+sidebar_label: Descripción general de los nodos que se ejecutan en el núcleo
 hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# Nodos en el ecosistema de la cadena central
+# Nodos en el ecosistema central
 
 ---
 
-En el ecosistema Core Chain, la solidez, la seguridad y la descentralización de la red están respaldadas por los nodos operados por los participantes de la comunidad. Estos nodos facilitan diversas funciones, desde la validación de transacciones hasta la propagación de bloques, garantizando la salud y eficiencia generales de la red. Dependiendo de sus objetivos, existen diferentes configuraciones de nodos posibles en la red Core. Si aún no ha iniciado el nodo Core Chain, revise la documentación para [Ejecutar un nodo validador local] (./validator/running-validator.md) antes de continuar con diferentes configuraciones.
+En el ecosistema Core, la solidez, la seguridad y la descentralización de la red están respaldadas por los nodos operados por los participantes de la comunidad. Estos nodos facilitan diversas funciones, desde la validación de transacciones hasta la propagación de bloques, garantizando la salud y eficiencia generales de la red. Dependiendo de sus objetivos, existen diferentes configuraciones de nodos posibles en la red Core. Si aún no ha iniciado ningún nodo en la red central, revise la documentación para [Ejecutar un nodo validador local] (./validator/running-validator.md) antes de continuar con diferentes configuraciones.
 
 - Si quieres ser parte de la gobernanza de la Red Core:
 
-  - [Iniciar un nodo validador](/i18n/es/docusaurus-plugin-content-docs/current/Node/config/validator-node-config.md)
+  - [Iniciar un nodo validador](./config/validator-node-config.md)
 
-- Si desea ejecutar un nodo Core Chain para uso privado:
-  - [Iniciar un nodo completo normal](/i18n/es/docusaurus-plugin-content-docs/current/Node/Full-Node/on-mainnet.md)
+- Si desea ejecutar un nodo en la red Core para uso privado:
+  - [Iniciar un nodo completo normal](./Full-Node/on-mainnet.md)
 
-- Si desea enviar transacciones o consultar la cadena directamente desde su propio nodo de Core Chain:
+- Si desea enviar transacciones o consultar la cadena directamente desde su propio nodo Core blockchain:
 
-  - [Iniciar un nodo RPC](/i18n/es/docusaurus-plugin-content-docs/current/Node/config/rpc-node-config.md)
+  - [Iniciar un nodo RPC](./config/rpc-node-config.md)
 
 - Si desea consultar datos históricos de la cadena desde el bloque de génesis:
 
-  - [Iniciar un nodo de archivo](/i18n/es/docusaurus-plugin-content-docs/current/Node/config/archive-node-config.md)
+  - [Iniciar un nodo de archivo](./config/archive-node-config.md)
 
 - Si desea ayudar a los operadores de nodos a sincronizarse rápidamente con la red:
 
-  - [Iniciar un nodo de instantánea](/i18n/es/docusaurus-plugin-content-docs/current/Node/config/snapshot-node-config.md)
+  - [Iniciar un nodo de instantánea](./config/snapshot-node-config.md)
 
-## Tipos de nodos en la red de la cadena central
+## Tipos de nodos en la red central
 
 1. **Validadores:**
    - **Rol:** Los validadores son cruciales para proteger la red mediante la producción de bloques y la validación de transacciones dentro del marco de consenso de la cadena central.
@@ -62,4 +62,4 @@ En el ecosistema Core Chain, la solidez, la seguridad y la descentralización de
 
 ## Conclusión
 
-Las diversas funciones de los nodos en el ecosistema Core Chain garantizan colectivamente que la cadena de bloques sea segura, eficiente, accesible y robusta. Los validadores, los nodos completos y los nodos de archivo forman la columna vertebral de la seguridad y la integridad de los datos de la red. Al mismo tiempo, los nodos RPC y los nodos Snapshot brindan flexibilidad, accesibilidad y escalabilidad. Esta arquitectura de nodo multifacética admite una amplia gama de operaciones, desde el procesamiento de transacciones hasta interacciones complejas de dApp y análisis de datos históricos.
+Las diversas funciones de los nodos en el ecosistema Core garantizan colectivamente que la cadena de bloques sea segura, eficiente, accesible y robusta. Los validadores, los nodos completos y los nodos de archivo forman la columna vertebral de la seguridad y la integridad de los datos de la red. Al mismo tiempo, los nodos RPC y los nodos Snapshot brindan flexibilidad, accesibilidad y escalabilidad. Esta arquitectura de nodo multifacética admite una amplia gama de operaciones, desde el procesamiento de transacciones hasta interacciones complejas de dApp y análisis de datos históricos.

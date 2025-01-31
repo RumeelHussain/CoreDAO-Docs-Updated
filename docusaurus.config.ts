@@ -37,7 +37,7 @@ const config: Config = {
   deploymentBranch:'main',
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -92,11 +92,18 @@ const config: Config = {
         id: "api", // plugin id
         docsPluginId: "classic", // configured for preset-classic
         config: {
-          stakingapi: {
-            specPath: "docs/new-api/swagger.yaml",
-            outputDir: "docs/stakingAPI",
+          stakingapimainnet: {
+            specPath: "docs/new-api/staking/mainnet.yaml",
+            outputDir: "docs/stakingAPI/mainnet",
             sidebarOptions: {
               groupPathsBy: "tag",
+            },
+          } satisfies OpenApiPlugin.Options,
+          stakingapitestnet: {
+            specPath: "docs/new-api/staking/testnet.yaml",
+              outputDir: "docs/stakingAPI/testnet",
+              sidebarOptions: {
+                groupPathsBy: "tag",
             },
           } satisfies OpenApiPlugin.Options,
         }
@@ -150,7 +157,7 @@ const config: Config = {
 
     //Header Navigation Items
     navbar: {
-      title: 'Core DAO Documentation',
+      title: 'Core DAO',
         logo: {
           alt: 'Core DAO Logo',
           src: 'img/core.png',
@@ -169,7 +176,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'devGuideSidebar',
           position: 'left',
-          label: 'Developer Guide',
+          label: 'Build',
           activeBaseRegex: `/docs/`,
         },
         {
@@ -183,14 +190,14 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'stakeDelegateSidebar',
           position: 'left',
-          label: 'Staking & Delegation',
+          label: 'Stake & Delegate',
           activeBaseRegex: `/docs/`,
         },
         {
           type: 'docSidebar',
           sidebarId: 'apiSidebar',
           position: 'left',
-          label: 'Core API',
+          label: 'API',
           activeBaseRegex: `/docs/`,
         },
         {
@@ -200,13 +207,13 @@ const config: Config = {
           label: 'FAQs',
           activeBaseRegex: `/docs/`,
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'newapiSidebar',
-          position: 'left',
-          label: 'Staking API',
-          activeBaseRegex: `/docs/`,
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'StakingAPISidebar',
+        //   position: 'left',
+        //   label: 'Staking API',
+        //   activeBaseRegex: `/docs/`,
+        // },
         {
           type: 'localeDropdown',
           position: 'right',

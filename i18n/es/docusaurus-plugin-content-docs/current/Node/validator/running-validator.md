@@ -10,13 +10,13 @@ sidebar_position: 2
 
 ## Requisitos del Sistema
 
-Existen varios requisitos del sistema para configurar un nodo validador en la red central. Consulte [aquí](../config/validator-node-config.md) y asegúrese de tener los requisitos de hardware y software necesarios antes de ejecutar un nodo validador. Además, asegúrese de registrar su nodo validador correctamente consultando la guía detallada [aquí](/i18n/es/docusaurus-plugin-content-docs/current/Node/validator/validator-register.md).
+Existen varios requisitos del sistema para configurar un nodo validador en la red central. Consulte [aquí](../config/validator-node-config.md) y asegúrese de tener los requisitos de hardware y software necesarios antes de ejecutar un nodo validador. Además, asegúrese de registrar su nodo validador correctamente consultando la guía detallada [aquí](./validator-register.md).
 
 ## Construir y ejecutar
 
-1\. Recomendamos utilizar el repositorio de GitHub [core-chain](https://github.com/coredao-org/core-chain) para construir y ejecutar directamente su nodo de validación, es decir, ejecutar su nodo de validación directamente desde nuestra base de código de blockchain. Las instrucciones para crear el código fuente se pueden encontrar en el [README] del repositorio (https://github.com/coredao-org/core-chain#building-the-source).
+1\. Recomendamos utilizar el repositorio de GitHub [core-chain](https://github.com/coredao-org/core-chain) para construir y ejecutar directamente su nodo de validación, es decir, ejecutar su nodo de validación directamente desde nuestra base de código de blockchain. Las instrucciones para crear el código fuente se pueden encontrar en el [README del repositorio](https://github.com/coredao-org/core-chain#building-the-source).
 
-2\. Descargue el binario del nodo desde la [página de lanzamientos](https://github.com/coredao-org/core-chain/releases) del repositorio de core-chain. El binario del nodo incluye los archivos de configuración relevantes de mainnet y testnet. Esta es la [última versión](https://github.com/coredao-org/core-chain/releases/latest).
+2\. Descargue el binario del nodo desde la [página de lanzamientos] (https://github.com/coredao-org/core-chain/releases) del repositorio de core-chain. El binario del nodo incluye los archivos de configuración relevantes de mainnet y testnet. Esta es la [última versión](https://github.com/coredao-org/core-chain/releases/latest).
 
 3\. Escriba el estado de génesis localmente ejecutando el siguiente comando desde el directorio de su proyecto:
 
@@ -44,10 +44,10 @@ Si planea ejecutar un nodo de validación, deberá configurar la clave de consen
 
 ```bash
 # generar la clave de consenso e ingresar la contraseña
-geth account new --datadir ./node
-echo {your-password} > password.txt
+cuenta geth nueva --datadir ./node
+echo {tu-contraseña} > contraseña.txt
 # iniciar un nodo validador
-geth --config ./config.toml --datadir ./node -unlock {your-validator-address} --password password.txt  --mine  --allow-insecure-unlock  --cache 8000
+geth --config ./config.toml --datadir ./node -unlock {su-dirección-validador} --miner.etherbase {su-dirección-validador} --password contraseña.txt --mine --allow-insecure -desbloquear --cache 8000
 ```
 
 5\. A medida que se ejecuta nuestro nodo validador, podemos monitorear sus registros para asegurarnos de que todo esté funcionando correctamente. El archivo de registro se encuentra en `./node/logs/core.log` de forma predeterminada, pero se puede cambiar a otra ubicación si lo desea.

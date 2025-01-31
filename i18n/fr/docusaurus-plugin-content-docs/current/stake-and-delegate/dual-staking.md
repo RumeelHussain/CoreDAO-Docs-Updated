@@ -14,6 +14,16 @@ sidebar_position: 2
 
 Pour améliorer davantage la génération de rendement du staking de Bitcoin Non-Custodial à grande échelle, le **Dual Staking** débloque des niveaux de rendement plus élevés en stakant simultanément du Bitcoin et du CORE. Étant donné que les émissions quotidiennes de CORE sont fixes, ceux qui stakent du CORE aux côtés du Bitcoin gagnent des niveaux de récompense plus élevés que ceux qui stakent uniquement du Bitcoin. Le pourcentage de boost sur le rendement est déterminé en stakant du CORE au-dessus de plusieurs seuils définis, chaque seuil correspondant à des niveaux croissants de récompenses de staking de Bitcoin. En reliant des récompenses de staking de Bitcoin plus élevées au volume de tokens CORE stakés, cette approche encourage les stakers de Bitcoin à s'engager plus profondément dans l'écosystème Core. Elle maximise les rendements pour les utilisateurs engagés.
 
+<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+  <iframe
+    src="https://www.youtube.com/embed/zqzGoQwT9Rs?si=HRHOIRc2viLKHP1g"
+    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
+
 ## Comment fonctionne le Dual Staking ?
 
 Le Dual Staking n'altère pas le processus de staking pour le Bitcoin et le CORE. Pour plus d'informations sur le fonctionnement du Staking de Bitcoin Non-Custodial, référez-vous [ici](https://docs.coredao.org/docs/Learn/products/btc-staking/overview). Consultez également ce [guide](https://docs.coredao.org/docs/stake-and-delegate/delegating-core) détaillé sur la délégation de CORE et le [staking](https://docs.coredao.org/docs/Learn/products/btc-staking/stake-btc-guide)/la [récupération](https://docs.coredao.org/docs/Learn/products/btc-staking/Redeeming-Guide) de BTC.
@@ -64,9 +74,9 @@ Le CORE staké et/ou le Bitcoin staké peuvent être distribués entre plusieurs
 
 3. **Détermination du niveau de rendement boosté pour chaque (1) Bitcoin staké**
    - Si la quantité de CORE staké \< **R<sub>1</sub>**, l'utilisateur est dans le niveau  **P<sub>BASE</sub>**
-   - If **R<sub>1</sub>** \=\< staked CORE amount \< **R<sub>2</sub>**, the user enters tier **P<sub>Level1</sub>**
-   - If **R<sub>2</sub>** \=\< staked CORE amount \< **R<sub>3</sub>**, the user enters tier **P<sub>Level2</sub>**
-   - If staked CORE amount \>= **R<sub>3</sub>**, the user enters tier **P<sub>Level3</sub>** (**P<sub>MAX</sub>**)
+   - Si **R<sub>1</sub>** \=\< quantité de CORE staké \< **R<sub>2</sub>**, l'utilisateur entre dans le niveau **P<sub>Niveau1</sub>**
+   - Si **R<sub>2</sub>** \=\< quantité de CORE staké \< **R<sub>3</sub>**, l'utilisateur entre dans le niveau **P<sub>Niveau2</sub>**
+   - Si la quantité de CORE staké \>= **R<sub>3</sub>**, l'utilisateur entre dans le niveau **P<sub>Niveau3</sub>** (**P<sub>MAX</sub>**)
 
 :::note
 Les ratios de staking et le nombre de niveaux sont configurables et sujets à modification par vote de gouvernance.
@@ -101,7 +111,7 @@ Le multiplicateur sur chaque niveau de rendement augmenté est dynamique et suje
 :::
 
 :::info
-For your new dual staking tier to take effect, you  may need to follow two steps. This applies to users who already have BTC staked in earlier rounds at 00:00 am UTC and decide to stake additional CORE to move up tiers. First, after staking CORE, wait until the next 00:00 UTC. Then, claim all your rewards anytime after 00:00 UTC to reset the tier calculation system. Your new tier will activate as soon as you complete the claim. Both steps are essential to ensure your new tier takes effect.
+Pour que votre nouveau palier de dual staking prenne effet, vous devrez peut-être effectuer deux étapes. Cela concerne les utilisateurs qui ont déjà staké du BTC lors de précédents tours à 00:00 UTC et qui décident de staker du CORE supplémentaire pour passer à un palier supérieur. Tout d'abord, après avoir staké du CORE, attendez le prochain 00:00 UTC. Ensuite, réclamez toutes vos récompenses à n’importe quel moment après 00:00 UTC afin de réinitialiser le système de calcul du palier. Votre nouveau palier sera activé dès que vous aurez finalisé la réclamation de vos récompenses. Les deux étapes sont essentielles pour garantir la prise en compte de votre nouveau palier.
 :::
 
 ## Qu'est-ce qui change avec le Dual Staking ?
@@ -125,7 +135,7 @@ Le Dual Staking est conçu pour tout le monde, des individus aux plus grandes in
 Les mineurs de Bitcoin peuvent gagner des récompenses en CORE en délégant leur puissance de hachage à des validateurs sur le réseau Core et en stakant leurs tokens Bitcoin et CORE. Ils peuvent débloquer des rendements plus élevés sur leurs trésoreries de Bitcoin en stakant des tokens CORE au-dessus du seuil minimum de dual staking. Intégrer les récompenses minières avec le mécanisme de Dual Staking permet aux mineurs de maximiser les rendements sur les activités de minage et de staking.
 
 :::info
-Veuillez vous référer à la [section FAQ sur le Dual Staking](/i18n/fr/docusaurus-plugin-content-docs/current/FAQs/dual-staking-faqs.md) pour d'autres questions ou clarifications. Pour un support supplémentaire, vous pouvez diriger vos questions vers le [Forum des développeurs de Core](http://forum.coredao.org) ou le [Serveur Discord de Core](https://discord.gg/M2AGJKSG).
+Veuillez vous référer à la section FAQ sur le Dual Staking pour d'autres questions ou clarifications. Pour un support supplémentaire, vous pouvez diriger vos questions vers le [Forum des développeurs de Core](http://forum.coredao.org) ou le [Serveur Discord de Core](https://discord.gg/M2AGJKSG).
 :::
 
 ## Conclusion

@@ -13,6 +13,7 @@ Core Explorer es una interfaz gráfica de usuario diseñada para permitir a los 
 ### Exploradores para Red de Prueba
 
 - https://scan.test.btcs.network
+- https://scan.test2.btcs.network
 
 ### Exploradores para Red Principal
 

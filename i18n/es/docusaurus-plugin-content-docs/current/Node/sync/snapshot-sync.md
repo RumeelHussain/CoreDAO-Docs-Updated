@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ---
 
-En la red Core, puede sincronizar su nodo con el último estado de Core Chain de varias maneras. En este documento, lo guiamos a través del proceso de sincronización de nodos en la red Core.
+En la red Core, puede sincronizar su nodo con el último estado de la cadena de bloques Core de varias maneras. En este documento, lo guiamos a través del proceso de sincronización de nodos en la red Core.
 
 ## Sincronizar desde instantánea (recomendado)
 

@@ -19,7 +19,7 @@ Dans l'écosystème de Core, la délégation est un mécanisme fondamental qui p
 
 ### 5) Quels sont les avantages de déléguer des tokens BTC ou CORE ?
 
-En déléguant des tokens CORE à des validateurs, les détenteurs de CORE peuvent aider à sécuriser le réseau et partager les récompenses du système. Veuillez consulter le [guide](../stake-and-delegate/delegating-core) détaillé sur la délégation de CORE pour plus d'informations.
+En déléguant des tokens CORE à des validateurs, les détenteurs de CORE peuvent aider à sécuriser le réseau et partager les récompenses du système. Veuillez consulter le [guide](../stake-and-delegate/delegating-core.md) détaillé sur la délégation de CORE pour plus d'informations.
 
 <!-- ### 4. What are the minimum staking period requirements for BTC and BTC Hash Power delegation?
 For BTC and BTC hash power delegation the minimum requirement is that of **10** days, i.e., you cannot un-delegate your stake prior to **10** days. Technically, (\`CLTV timestamp - transaction confirmation timestamp > 10 days\`). -->
@@ -30,7 +30,7 @@ Ce type de délégation permet aux détenteurs de BTC et de tokens CORE de soute
 
 ### 9. Comment déléguer de la puissance de hachage sur le réseau Core ?
 
-En déléguant de la puissance de hachage à des validateurs, les mineurs de BTC peuvent aider à sécuriser le réseau et partager les récompenses du système. Veuillez consulter le [guide](../stake-and-delegate/delegating-hash) détaillé sur la délégation de puissance de hachage pour plus d'informations.
+En déléguant de la puissance de hachage à des validateurs, les mineurs de BTC peuvent aider à sécuriser le réseau et partager les récompenses du système. Veuillez consulter le [guide](../stake-and-delegate/delegating-hash.md) détaillé sur la délégation de puissance de hachage pour plus d'informations.
 
 ### 6. Comment un délégateur peut-il maximiser ses récompenses ?
 
@@ -56,7 +56,7 @@ En dehors des frais de transaction/gas, Core ne facture pas de frais supplément
 
 ### 11. Quand les récompenses sont-elles versées ?
 
-Consultez le guide détaillé [ici](/i18n/fr/docusaurus-plugin-content-docs/current/stake-and-delegate/delegating-core.md) sur la façon de Réclamer les Récompenses obtenues grâce au staking de BTC et de CORE. En cas de délégation de puissance de hachage BTC, consultez [ici](/i18n/fr/docusaurus-plugin-content-docs/current/stake-and-delegate/delegating-hash.md).
+Consultez le guide détaillé [ici](../stake-and-delegate/delegating-core.md) sur la façon de Réclamer les Récompenses obtenues grâce au staking de BTC et de CORE. En cas de délégation de puissance de hachage BTC, consultez [ici](../stake-and-delegate/delegating-hash.md).
 
 ### 11. Que se passe-t-il si un validateur cesse de fonctionner ou est pénalisé ?
 

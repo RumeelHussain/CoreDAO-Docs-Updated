@@ -53,5 +53,5 @@ Como un Bitcoin envuelto nativo en Core, coreBTC mantiene una paridad 1:1 con Bi
 4. **Estados de Relayers:** Revisa la lista de relayers responsables de la transmisión y verificación de datos entre Bitcoin y la blockchain de Core.
 
 :::note
-Consulta la sección de [Preguntas Frecuentes de coreBTC](/i18n/es/docusaurus-plugin-content-docs/current/FAQs/coreBTC-faqs.md) para cualquier consulta que puedas tener.
+Consulta la sección de [Preguntas Frecuentes de coreBTC](../../../FAQs/coreBTC-faqs.md) para cualquier consulta que puedas tener.
 :::

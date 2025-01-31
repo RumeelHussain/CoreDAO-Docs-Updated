@@ -2,7 +2,7 @@
 sidebar_label: Usando Remix
 hide_table_of_contents: false
 sidebar_position: 2
-description: Implementar contratos en Core Chain usando Remix IDE
+description: Implementar contratos en Core utilizando Remix IDE
 ---
 
 # Usando Remix
@@ -23,7 +23,7 @@ En la imagen siguiente, verá que puede elegir diferentes versiones del compilad
 
 Puede elegir diferentes entornos en Remix, como se muestra en la imagen a continuación. Un entorno es simplemente la red blockchain con la que trabajará. Hay máquinas virtuales (VM) integradas, así como proveedores que le permiten conectarse a VM externas.
 
-Para conectarse a Core Testnet, elija `Proveedor inyectado - MetaMask`. Asegúrese de que su billetera MetaMask esté [configurada para Core Tesnet] (/i18n/es/docusaurus-plugin-content-docs/current/Dev-Guide/core-testnet-wallet-config.md) usando la configuración de la cadena testnet y verifique que su cuenta reciba fondos del [grifo] (https://scan. test.btcs.network/faucet).
+Para conectarse a Core Testnet, elija `Proveedor inyectado - MetaMask`. Asegúrese de que su billetera MetaMask esté [configurada para Core Tesnet](./core-testnet-wallet-config.md) usando la configuración de la cadena de testnet y verifique que su cuenta esté financiada desde el faucet apropiado según el Core testnet al que esté conectado. a. Consulte [aquí](https://scan.test2.btcs.network/faucet) para Core Testnet (1114).\`.
 
 ![remix-ide](../../../../../static/img/remix/remix-3.avif)
 
@@ -33,7 +33,7 @@ Se le pedirá que se conecte a MetaMask. Una vez conectado, Remix muestra la dir
 
 ## Compilación e implementación de contratos inteligentes
 
-- **Asegúrese de que su contrato inteligente siga las [Pautas de soporte de solidez de Core Chain](/i18n/es/docusaurus-plugin-content-docs/current/Dev-Guide/smart-contract-guidelines.md)**.
+- **Asegúrese de que su contrato inteligente siga las [Pautas de soporte de solidez para Core Blockchain](./smart-contract-guidelines.md)**.
 
 - Remix viene con varios contratos preestablecidos predeterminados cargados en el espacio de trabajo predeterminado, como se muestra a continuación. Para este tutorial, usaremos el contrato `1_Storage.sol` precargado. Este contrato implementa una base de datos simple que nos permite almacenar un número mediante la función `store()` y verlo mediante la función `retrieve()`.
 

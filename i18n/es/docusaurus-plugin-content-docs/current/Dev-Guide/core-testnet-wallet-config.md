@@ -1,10 +1,10 @@
 ---
-sidebar_label: Red de prueba de Core
+sidebar_label: Red de prueba Core
 hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# Conéctese a la red de prueba de Core
+# Conéctese a la red de prueba Core
 
 ---
 
@@ -29,10 +29,12 @@ Hay varias formas de agregar configuraciones de Core Testnet a su MetaMask Walle
 Una vez que haya configurado su billetera MetaMask, puede usarla para conectarse a Core Testnet agregando los detalles de la cadena de Core Testnet en la configuración de red de MetaMask. Navegue hasta `Configuración->Redes` en MetaMask y haga clic en el botón `Agregar red`. Introduzca la siguiente información:
 
 - **Nombre de la red:** Core Blockchain TestNet
-- **Nueva URL de RPC:** https://rpc.test.btcs.network
-- **Chain ID:** 1115
-- **Símbolo de moneda:** tCORE
-- **Chain ID:** 1115
+- **Nueva URL de RPC:** https://rpc.test2.btcs.network
+- **ID de cadena:** 1114
+- **Símbolo de moneda:** tCORE2
+- **URL del Explorador de bloques:** https://scan.test2.btcs.network
+- **Grifo:** https://scan.test2.btcs.network/faucet
+- **Sitio web de apuestas:** https://stake.test2.btcs.network/
 
 ![add-network-metamask](../../../../../static/img/testnet-wallet-config/testnet-config-wallet-1.png)
 
@@ -58,30 +60,34 @@ El Core Testnet ahora está agregado a su MetaMask.
 
 #### Agregar red a través de Core Testnet Explorer
 
-Si usa la extensión Chrome MetaMask, puede usar un atajo rápido para agregar Core Testnet a MetaMask. Visite [Core Testnet Explorer] (https://scan.test.btcs.network/), desplácese hacia abajo y seleccione el botón "Agregar red central". Esto abrirá una ventana emergente con toda la información de red necesaria cargada; solo necesita confirmar y aprobar.
+Si usa la extensión Chrome MetaMask, puede usar un atajo rápido para agregar Core Testnet a MetaMask. Visite [Core Testnet Explorer](https://scan.test2.btcs.network/), desplácese hacia abajo y seleccione el botón "Agregar red central". Esto abrirá una ventana emergente con toda la información de red necesaria cargada; solo necesita confirmar y aprobar.
 
-![agregar-metamask-de-red](../../../../..//static/img/testnet-wallet-config/testnet-wallet-config-2.png)
+![agregar-metamask-de-red](../../../../../static/img/testnet-wallet-config/testnet-wallet-config-2.png)
 
 :::info
 
+#### Nueva red de prueba
+
+La nueva red de prueba de Core con `chainID 1114` ya está disponible y se recomienda su uso. Es compatible con BTC Testnet para apostar, a diferencia de la versión anterior (`chainID 1115`). La antigua testnet pronto quedará obsoleta y eventualmente se retirará, así que cambie a la nueva testnet para acceder a las funciones más recientes.
+
 #### Actualizaciones de cambio de marca
 
-Satoshi Chain/BTC ha sido rebautizado como “Core Chain/CORE”, respectivamente. Si agregó Testnet antes del cambio de marca, deberá actualizar manualmente el nombre de la red y el símbolo de moneda en la configuración de MetaMask; de lo contrario, no podrá utilizar la versión actual de Core Testnet. Vaya a `Configuración->Red` y seleccione `Core Testnet` para abrir la configuración de red. Actualice el nombre de la red y el símbolo de moneda a los valores indicados en la [sección anterior] (#adding-network-manualmente) y haga clic en el botón Guardar. Listo!
+"Satoshi Chain/BTC" han sido rebautizados como "Core/CORE", respectivamente. Si agregó Testnet antes del cambio de marca, deberá actualizar manualmente el nombre de la red y el símbolo de moneda en la configuración de MetaMask; de lo contrario, no podrá utilizar la versión actual de Core Testnet. Vaya a `Configuración->Red` y seleccione `Core Testnet` para abrir la configuración de red. Actualice el nombre de la red y el símbolo de moneda a los valores indicados en la [sección anterior] (#adding-network-manualmente) y haga clic en el botón Guardar. Listo!
 :::
 
 ### Monedero de financiación con tokens tCORE
 
-Para ayudar a los usuarios a comenzar y permitir a los desarrolladores crear rápidamente prototipos de sus dApps, Core ha lanzado el [Core Testnet Faucet] público (https://scan.test.btcs.network/faucet) para distribuir tokens de Core testnet, **tCORE** . Siga la [guía] detallada (/i18n/es/docusaurus-plugin-content-docs/current/Dev-Guide/core-faucet.md) para financiar su cuenta de metamask con tokens tCORE.
+Para ayudar a los usuarios a comenzar y permitir a los desarrolladores crear rápidamente prototipos de sus dApps, Core ha lanzado el [Core Testnet Faucet público](https://scan.test2.btcs.network/faucet) para distribuir tokens de Core testnet2, **tCORE2** . Siga la [guía detallada](./core-faucet.md) para financiar su cuenta de metamask con tokens tCORE.
 
-### Envío de tokens tCORE
+### Envío de tokens tCORE2
 
-Puede utilizar MetaMask para enviar tCORE a otras direcciones.
+Puede utilizar MetaMask para enviar tCORE2 a otras direcciones.
 
-1. Navegue a la billetera metamask, asegúrese de estar conectado a Core Testnet
+1. Navegue a la billetera metamask, asegúrese de estar conectado a Core Testnet2
 2. Haga clic en el botón `Enviar`
 
 ![send-metmask](../../../../../static/img/testnet-wallet-config/send-tcore-1.png)
 
-3. Ingrese la cantidad de tokens tCORE que desea enviar y la dirección a la que desea enviar los tokens tCORE; asegúrese de que sea una dirección Core Testnet. Luego haga clic en siguiente y confirme la transacción.
+3. Ingrese la cantidad de tokens tCORE que desea enviar y la dirección a la que desea enviar los tokens tCORE2; asegúrese de que sea una dirección Core Testnet2. Luego haga clic en siguiente y confirme la transacción.
 
 ![send-metmask](../../../../../static/img/testnet-wallet-config/send-tcore-2.png)

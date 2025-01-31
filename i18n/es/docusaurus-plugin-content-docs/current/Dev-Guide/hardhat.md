@@ -2,7 +2,7 @@
 sidebar_label: Uso de Hardhat
 hide_table_of_contents: false
 sidebar_position: 2
-description: Despliega contratos en Core Chain usando Hardhat.
+description: Implementar contratos en Core usando Hardhat
 ---
 
 # Uso de Hardhat
@@ -74,17 +74,17 @@ Copia lo siguiente en tu archivo hardhat.config.js:
        hardhat: {
        },
        testnet: {
-          url: 'https://rpc.test.btcs.network',
+          url: 'https://rpc.test2.btcs.network',
           accounts: [PrivateKey],
-          chainId: 1115,
+          chainId: 1114,
        }
     },
     solidity: {
        compilers: [
          {
-            version: '0.8.9',
+            version: '0.8.24',
             settings: {
-               evmVersion: 'paris',
+               evmVersion: 'shanghai',
                optimizer: {
                   enabled: true,
                   runs: 200,
@@ -105,7 +105,7 @@ Copia lo siguiente en tu archivo hardhat.config.js:
  
 ```
 
-\*\*Asegúrate de que tu contrato inteligente sigue las Directrices de Soporte de Solidity por Core Chain. Esto incluye configurar el parámetro evmVersion a paris en la configuración del compilador Solidity.
+**Asegúrese de que su contrato inteligente siga las [Pautas de soporte de solidez para Core Blockchain](./smart-contract-guidelines.md)**; para ello, asegúrese de que el parámetro `evmVersion` esté establecido en `shanghai` bajo el configuración del compilador de solidez en el archivo `hardhat.config.js`.
 
 > Nota: Necesitamos pasar claves privadas/mnemónicos al proveedor. Puedes crear un archivo `secret.json` para almacenarlos. No olvides agregar este archivo a `.gitignore` para no subir accidentalmente tus claves privadas a un repositorio público. ¡Asegúrate de mantener este archivo en un lugar absolutamente seguro!
 
@@ -259,7 +259,7 @@ call retrieve() again: BigNumber { value: "100" }
 
 Podemos ver que el script implementó correctamente el contrato, almacenó un número y confirmó que el número ahora está almacenado en el contrato.
 
-Podemos usar [Core Scan](https://scan.test.btcs.network/) para buscar la dirección del contrato y verificar que el contrato fue desplegado y llamado con éxito.
+Podemos usar [Core Scan](https://scan.test2.btcs.network/) para buscar la dirección del contrato y verificar que el contrato fue desplegado y llamado con éxito.
 
 ![hardhat](../../../../../static/img/hardhat/hardhat-1.avif)
 

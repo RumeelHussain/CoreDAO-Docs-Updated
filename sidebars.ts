@@ -294,7 +294,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       collapsed: true,
-      label: '🔗 Connect with Core API',
+      label: 'CoreScan API',
       link: {type: 'doc', id: 'api/api'},
       items: [
         {
@@ -316,7 +316,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           collapsed: true,
-          label: '📑 API Documents',
+          label: '📑 API Endpoints',
           link: {
             type: 'generated-index',
             title: 'Core Scan API Documentation',
@@ -334,16 +334,33 @@ const sidebars: SidebarsConfig = {
         }
       ]
     },
-  ],
-
-  newapiSidebar: [
     {
       type: 'category',
       collapsed: true,
       label: 'Staking API',
-      items: require("./docs/stakingAPI/sidebar.ts")
+      items: [
+        {
+          type: 'category',
+          collapsed: true,
+          label: '📑 Mainnet API Endpoints',
+          items: [ 
+            //require("./docs/stakingAPI/sidebar.ts"),
+            require("./docs/stakingAPI/mainnet/sidebar.ts"),
+          ]
+        },
+        {
+          type: 'category',
+          collapsed: true,
+          label: '📑 Testnet API Endpoints',
+          items: [ 
+            require("./docs/stakingAPI/testnet/sidebar.ts")
+          ]
+        }, 
+        
+      ]
     },
   ],
+
 };
 
 export default sidebars;

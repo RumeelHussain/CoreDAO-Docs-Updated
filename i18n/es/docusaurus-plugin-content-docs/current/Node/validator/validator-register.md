@@ -9,17 +9,18 @@ sidebar_position: 2
 ---
 
 :::caution
-Antes de convertirse en validador de Core, recomendamos encarecidamente leer el [documento técnico](https://whitepaper.coredao.org/).
+Antes de convertirse en validador de Core, recomendamos encarecidamente leer el [documento técnico] (https://whitepaper.coredao.org/).
 :::
 
 ## Registro
 
-1. Para registrarse como validador en Core, debe ejecutar un nodo completo en modo validador. Lea las guías sobre [configurar nodos de validación](/i18n/es/docusaurus-plugin-content-docs/current/Node/config/validator-node-config.md) y [ejecutar nodos de validación] (/i18n/es/docusaurus-plugin-content-docs/current/Node/validator/running-validator.md) para obtener información sobre cómo configurar esto.
+1. Para registrarse como validador en Core, debe ejecutar un nodo completo en modo validador. Lea las guías sobre [configurar nodos de validación] (../config/validator-node-config.md) y [ejecutar nodos de validación] (./running-validator.md) para obtener información sobre cómo configurar esto.
 
 2. Una vez terminado, la forma más sencilla de registrar un nuevo validador es utilizando uno de nuestros sitios web de apuestas:
 
    - [Sitio web de participación de Mainnet](https://stake.coredao.org)
-   - [Sitio web de participación de Testnet](https://stake.test.btcs.network)
+   - [Sitio web de participación de Core Testnet](https://stake.test.btcs.network)
+   - [Sitio web de participación de Core Testnet2](https://stake.test2.btcs.network)
 
 3. Conecte su billetera seleccionando **Conectar billetera** en la parte superior derecha.
 
@@ -44,9 +45,9 @@ Una forma rápida de comprobar que ha registrado correctamente su nodo completo 
 
 ## Elección del validador
 
-Cada día, los 23 validadores principales con las puntuaciones híbridas más altas son elegidos para el conjunto de validadores, convirtiéndose así en responsables de producir bloques en la red Core durante toda la ronda. Cuando se extrae el último bloque de una ronda, las recompensas acumuladas de la ronda se distribuyen y se selecciona el conjunto de validadores de la siguiente ronda. Para obtener más detalles sobre cómo funciona la elección del validador, consulte la sección [elección del validador](https://whitepaper.coredao.org/core-white-paper-v1.0.7/satoshi-plus-consensus/validator-election) de el documento técnico.
+Cada día, los **27** validadores principales con las puntuaciones híbridas más altas son elegidos para el conjunto de validadores, convirtiéndose así en responsables de producir bloques en la red Core durante toda la ronda. Cuando se extrae el último bloque de una ronda, las recompensas acumuladas de la ronda se distribuyen y se selecciona el conjunto de validadores de la siguiente ronda. Para obtener más detalles sobre cómo funciona la elección del validador, consulte la sección [elección del validador](./validator-election.md).
 
-Puede verificar el estado del validador en el sitio web de la apuesta; los validadores elegidos activos se marcarán como "Activo/Normal". El conjunto de validadores se actualiza a las 00:00 a. m. UTC todos los días.
+Puede verificar el estado del validador en el sitio web de la apuesta; los validadores elegidos activos se marcarán como "Activo/Normal". El conjunto de validadores se actualiza a las **00:00 am UTC** todos los días.
 
 ![formulario-registro-validador](../../../../../../static/img/validator/register/validator-register-3.avif)
 

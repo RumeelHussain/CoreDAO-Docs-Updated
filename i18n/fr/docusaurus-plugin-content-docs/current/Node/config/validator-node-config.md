@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ---
 
-Les validateurs sont essentiels pour sécuriser le réseau en produisant des blocs et en validant les transactions dans le cadre du consensus Satoshi Plus de Core Chain.
+Les validateurs sont essentiels pour sécuriser le réseau en produisant des blocs et en validant les transactions dans le cadre du consensus Satoshi Plus de Core.
 
 ## Requis Systèmes
 

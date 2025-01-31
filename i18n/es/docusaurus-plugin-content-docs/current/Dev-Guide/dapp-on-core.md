@@ -2,7 +2,7 @@
 sidebar_label: Construya dApp en Core
 hide_table_of_contents: false
 sidebar_position: 2
-description: Cree una dApp de Fullstack en Core Chain
+description: Cree una dApp de pila completa en Core
 ---
 
 # Construyendo dApp en Core
@@ -86,7 +86,7 @@ dapp-tutorial.
 |      
 ```
 
-5. Instale y configure MetaMask Chrome Extension para usar con Core Testnet. Consulte [aquí](/i18n/es/docusaurus-plugin-content-docs/current/Dev-Guide/core-testnet-wallet-config.md) para obtener una guía detallada.
+5. Instale y configure MetaMask Chrome Extension para usar con Core Testnet. Consulte [aquí](./core-testnet-wallet-config.md) para obtener una guía detallada.
 
 6. Cree un archivo secret.json en la carpeta raíz y almacene en él la clave privada de su billetera MetaMask. Consulte [aquí](https://metamask.zendesk.com/hc/en-us/articles/360015290032-How-to-reveal-your-Secret-Recovery-Phrase) para obtener detalles sobre cómo obtener la clave privada de la cuenta MetaMask.
 
@@ -121,17 +121,17 @@ module.exports = {
       hardhat: {
       },
       testnet: {
-         url: 'https://rpc.test.btcs.network',
+         url: 'https://rpc.test2.btcs.network',
          accounts: [PrivateKey],
-         chainId: 1115,
+         chainId: 1114,
       }
    },
    solidity: {
       compilers: [
         {
-           version: '0.8.19',
+           version: '0.8.24',
            settings: {
-            evmVersion: 'paris',
+            evmVersion: 'shanghai',
             optimizer: {
                  enabled: true,
                  runs: 200,
@@ -225,7 +225,7 @@ npx hardhat compile
 
 ## Implementar e interactuar con contratos inteligentes
 
-1. Antes de implementar su contrato inteligente en Core Chain, es mejor ejecutar primero una serie de pruebas para asegurarse de que el contrato inteligente esté funcionando como se desea. Consulte la guía detallada [aquí](https://docs.coredao.org/developer/develop-on-core/building-on-core/using-hardhat#contract-testing) para obtener más detalles.
+1. Antes de implementar su contrato inteligente en Core, es mejor ejecutar primero una serie de pruebas para asegurarse de que el contrato inteligente esté funcionando como se desea. Consulte la guía detallada [aquí](https://docs.coredao.org/docs/Dev-Guide/hardhat#contract-testing) para obtener más detalles.
 
 2. Cree una carpeta `scripts` en el directorio raíz de su proyecto. Dentro de esta carpeta, cree un archivo `deploy-and-call.js`; pegue el siguiente script en él.
 
@@ -261,9 +261,9 @@ main().catch((error) => {
 });
 ```
 
-3. Asegúrese de que su billetera MetaMask tenga tokens de prueba tCORE para Core Testnet. Consulte [aquí](https://docs.coredao.org/developer/develop-on-core/using-core-testnet/connect-to-core-testnet#testnet-facuet-tcore-account-funding) para obtener detalles sobre cómo obtener tokens tCORE de Core Faucet.
+3. Asegúrese de que su billetera MetaMask tenga tokens de prueba tCORE o tCORE2 para Core Testnet. Consulte [aquí](https://docs.coredao.org/docs/Dev-Guide/core-testnet-wallet-config) para obtener detalles sobre cómo obtener tokens tCORE o tCORE2 de Core Faucet.
 
-4. Ejecute el siguiente comando desde el directorio raíz de su proyecto para implementar su contrato inteligente en Core Chain.
+4. Ejecute el siguiente comando desde el directorio raíz de su proyecto para implementar su contrato inteligente en la cadena de bloques Core.
 
 ```bash
 npx hardhat run scripts/deploy-and-call.js
@@ -277,7 +277,7 @@ npx hardhat run scripts/deploy-and-call.js
 
 5. Asegúrese de guardar la dirección del contrato de almacenamiento en el que se implementa, como se obtuvo anteriormente, esto se usará para interactuar con el contrato inteligente desde la interfaz de la dApp.
 
-🎉¡Felicitaciones! Felicidades Ha aprendido con éxito cómo crear, compilar e implementar un contrato inteligente en Core Chain Testnet utilizando Hardhat.
+🎉¡Felicitaciones! Ha aprendido con éxito cómo crear, compilar e implementar un contrato inteligente en Core Testnet utilizando Hardhat.
 
 ## Interactuar con Smart Contract a través del Frontend
 
@@ -312,7 +312,7 @@ npm run dev
 
 ### Implementaciones clave
 
-La lógica clave de blockchain de la aplicación se implementa en [App.tsx](https://github.com/coredao-org/dapp-tutorial/blob/master/01-Simple%20Storage%20Full%20Stack%20Dapp/src/components/ aplicación.tsx)
+La lógica clave de blockchain de la aplicación se implementa en [App.tsx](https://github.com/coredao-org/dapp-tutorial/blob/master/01-Simple%20Storage%20Full%20Stack%20Dapp/src/components/App.tsx)
 
 1. [App.tsx (Cartera)](https://github.com/coredao-org/dapp-tutorial/blob/master/01-Simple%20Storage%20Full%20Stack%20Dapp/src/components/App.tsx#L20): lógica para conectar la aplicación a la billetera MetaMask.
 2. [App.tsx (Tienda)](https://github.com/coredao-org/dapp-tutorial/blob/master/01-Simple%20Storage%20Full%20Stack%20Dapp/src/components/App.tsx#L58): lógica para escribir datos en el contrato inteligente de almacenamiento.
@@ -321,8 +321,8 @@ La lógica clave de blockchain de la aplicación se implementa en [App.tsx](http
 ### Agregar detalles de contrato inteligente
 
 1. Copie el archivo `Storage.sol` de la carpeta `contracts` en la raíz de su proyecto y péguelo en la carpeta `frontend/src/contracts`.
-2. Copie la dirección del contrato inteligente de almacenamiento obtenida en la sección [arriba](#implementar-e-interactuar-con-contratos-inteligentes).
-3. Pegue esto en la [Línea 10 de App.tsx](https://github.com/coredao-org/dapp-tutorial/blob/master/01-Simple%20Storage%20Full%20Stack%20Dapp/src/components/App. tsx#L10).
+2. Copie la dirección del contrato inteligente de almacenamiento obtenida en la sección arriba.
+3. Pegue esto en la [Línea 10 de App.tsx](https://github.com/coredao-org/dapp-tutorial/blob/master/01-Simple%20Storage%20Full%20Stack%20Dapp/src/components/App.tsx#L10).
 
 ```javascript
 const contractAddress = '0x48F68BF4A1b1fE6589B9D0a5ad0dF0520582edA2'
@@ -334,7 +334,7 @@ const contractAddress = '0x48F68BF4A1b1fE6589B9D0a5ad0dF0520582edA2'
 
 1. Ejecute el comando `npm run dev` desde la raíz del proyecto para iniciar la aplicación. Esto servirá para la aplicación en [http://localhost:5173](http://localhost:5173/)
 
-2. Asegúrese de que su billetera MetaMask esté correctamente instalada y cambiada a Core Testnet como se describe en nuestra [guía del usuario de Core Testnet] (/i18n/es/docusaurus-plugin-content-docs/current/Dev-Guide/core-testnet-wallet-config.md). También deberá conectar su billetera MetaMask al sitio local.
+2. Asegúrese de que su billetera MetaMask esté correctamente instalada y cambiada a Core Testnet como se describe en nuestra [guía del usuario de Core Testnet] (./core-testnet-wallet-config.md). También deberá conectar su billetera MetaMask al sitio local.
 
 ![dapp-on-core](../../../../../static/img/dapp/dapp-1.png)
 

@@ -1,35 +1,35 @@
 ---
-sidebar_label: Vue d'Ensemble des Nœuds Fonctionnant sur Core Chain
+sidebar_label: Vue d'Ensemble des Nœuds Fonctionnant sur Core
 hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# Nœuds sur le l'Écosystème Core Chain
+# Nœuds sur le l'Écosystème Core
 
 ---
 
-Dans l'écosystème Core Chain, la robustesse, la sécurité et la décentralisation du réseau sont maintenues par les nœuds opérés par les participants de la communauté. Ces nœuds remplissent diverses fonctions, allant de la validation des transactions à la propagation des blocs, assurant ainsi la santé et l'efficacité globales du réseau. Selon vos objectifs, différentes configurations de nœuds sont possibles sur le réseau Core. Si vous n'avez pas encore démarré le nœud Core Chain, veuillez consulter la documentation pour [Exécuter un Nœud Validateur Local](/i18n/fr/docusaurus-plugin-content-docs/current/Node/validator/running-validator.md) avant de passer aux différentes configurations.
+Dans l'écosystème Core, la robustesse, la sécurité et la décentralisation du réseau sont maintenues par les nœuds opérés par les participants de la communauté. Ces nœuds remplissent diverses fonctions, allant de la validation des transactions à la propagation des blocs, assurant ainsi la santé et l'efficacité globales du réseau. Selon vos objectifs, différentes configurations de nœuds sont possibles sur le réseau Core. Si vous n'avez pas encore démarré de nœud sur le réseau Core, veuillez consulter la documentation pour [Exécuter un Nœud Validateur Local](./validator/running-validator.md) avant de passer aux différentes configurations.
 
 - Participer à la gouvernance du réseau Core :
 
-  - [Démarrer un nœud validateur](/i18n/fr/docusaurus-plugin-content-docs/current/Node/config/validator-node-config.md)
+  - [Démarrer un nœud validateur](./config/validator-node-config.md)
 
-- Exploiter un nœud Core Chain pour un usage privé :
-  - [Démarrer un nœud complet normal](/i18n/fr/docusaurus-plugin-content-docs/current/Node/Full-Node/on-mainnet.md)
+- Si vous voulez faire tourner un nœud Core pour votre usage personnel :
+  - [Démarrer un nœud complet normal](./Full-Node/on-mainnet.md)
 
-- Envoyer des transactions ou interroger directement la chaîne Core Chain :
+- Si vous voulez envoyer des transactions ou interroger directement la chaîne depuis votre propre nœud blockchain Core :
 
-  - [Démarrer un nœud RPC](/i18n/fr/docusaurus-plugin-content-docs/current/Node/config/rpc-node-config.md)
+  - [Démarrer un nœud RPC](./config/rpc-node-config.md)
 
 - Interroger les données historiques depuis le bloc genesis :
 
-  - [Démarrer un nœud d'archive](/i18n/fr/docusaurus-plugin-content-docs/current/Node/config/archive-node-config.md)
+  - [Démarrer un nœud d'archive](./config/archive-node-config.md)
 
 - Aider les opérateurs de nœuds à se synchroniser rapidement avec le réseau :
 
-  - [Démarrer un nœud de snapshot](/i18n/fr/docusaurus-plugin-content-docs/current/Node/config/snapshot-node-config.md)
+  - [Démarrer un nœud de snapshot](./config/snapshot-node-config.md)
 
-## Types de Nœuds sur le Réseau Core Chain
+## Types de Nœuds sur le Réseau Core
 
 1. **Validateurs:**
    - **Rôle :** Les validateurs sont essentiels pour sécuriser le réseau en produisant des blocs et en validant les transactions dans le cadre du mécanisme de consensus de Core Chain.
@@ -62,4 +62,4 @@ Dans l'écosystème Core Chain, la robustesse, la sécurité et la décentralisa
 
 ## Conclusion
 
-Les différents types de nœuds dans l'écosystème Core Chain assurent collectivement que la blockchain est sécurisée, efficace, accessible et robuste. Les validateurs, nœuds complets et nœuds d'archive forment la colonne vertébrale de la sécurité et de l'intégrité des données du réseau. En même temps, les nœuds RPC et de snapshot offrent flexibilité, accessibilité et scalabilité. Cette architecture de nœuds multifonctionnelle prend en charge une large gamme d'opérations, allant du traitement des transactions aux interactions complexes avec les applications décentralisées (dApp) et à l'analyse des données historiques.
+Les différents types de nœuds dans l'écosystème Core assurent collectivement que la blockchain est sécurisée, efficace, accessible et robuste. Les validateurs, nœuds complets et nœuds d'archive forment la colonne vertébrale de la sécurité et de l'intégrité des données du réseau. En même temps, les nœuds RPC et de snapshot offrent flexibilité, accessibilité et scalabilité. Cette architecture de nœuds multifonctionnelle prend en charge une large gamme d'opérations, allant du traitement des transactions aux interactions complexes avec les applications décentralisées (dApp) et à l'analyse des données historiques.

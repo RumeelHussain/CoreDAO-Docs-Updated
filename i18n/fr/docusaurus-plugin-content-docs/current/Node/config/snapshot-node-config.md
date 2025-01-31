@@ -44,13 +44,13 @@ Pour les nœuds snapshot sur le **Mainnet de la blockchain Core**, nous recomman
 | RAM              | 16 Go                                                                         |
 | Vitesse Internet | Connexion large bande avec une vitesse de chargement/téléchargement de 5 Mbps |
 
-## Snapshots de Core Chain
+## Snapshots du réseau Core
 
 Vous pouvez obtenir les derniers snapshots à partir de [ce lien](https://github.com/coredao-org/core-snapshots).
 
-## Synchronisation des Nœuds en Utilisant des Snapshots sur le Réseau Core Chain
+## Synchronisation des Nœuds en Utilisant des Snapshots sur le Réseau Core
 
-Sur le réseau Core Chain, vous pouvez synchroniser votre nœud avec l'état actuel de plusieurs façons. Ce document vous guide à travers le processus de synchronisation des nœuds en utilisant des snapshots.
+Sur le réseau Core, vous pouvez synchroniser votre nœud avec l'état actuel de plusieurs façons. Ce document vous guide à travers le processus de synchronisation des nœuds en utilisant des snapshots.
 
 ### Téléchargement des Binaries Précompilés
 

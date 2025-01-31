@@ -14,7 +14,7 @@ Avant de devenir validateur sur Core, nous vous recommandons vivement de lire le
 
 ## Enregistrement
 
-1. Pour vous enregistrer en tant que validateur sur Core, vous devez exécuter un nœud complet en mode validateur. Veuillez lire les guides sur la [configuration des nœuds de validation](/i18n/fr/docusaurus-plugin-content-docs/current/Node/config/validator-node-config.md) et [l'exécution des nœuds de validation](/i18n/fr/docusaurus-plugin-content-docs/current/Node/validator/running-validator.md) pour savoir comment configurer cela.
+1. Pour vous enregistrer en tant que validateur sur Core, vous devez exécuter un nœud complet en mode validateur. Veuillez lire les guides sur la [configuration des nœuds de validation](../config/validator-node-config.md) et [l'exécution des nœuds de validation](./running-validator.md) pour savoir comment configurer cela.
 
 2. Une fois cela terminé, la façon la plus simple de s'enregistrer comme validateur est d'utiliser l'un de nos sites de staking :
 
@@ -44,9 +44,9 @@ Pour vérifier rapidement si votre nœud complet a bien été enregistré comme 
 
 ## Élection des Validateurs
 
-Chaque jour, les 27 validateurs avec les scores hybrides les plus élevés sont élus pour produire des blocs sur le réseau Core pendant toute la durée du round. Les récompenses accumulées sont ensuite distribuées à la fin du round, et le prochain ensemble de validateurs est sélectionné. Pour plus de détails, consultez la section sur l'[élection des validateurs](https://whitepaper.coredao.org/core-white-paper-v1.0.7/satoshi-plus-consensus/validator-election) dans la section Whitepaper Technique.
+Chaque jour, les **27**validateurs avec les scores hybrides les plus élevés sont élus pour produire des blocs sur le réseau Core pendant toute la durée du round. Les récompenses accumulées sont ensuite distribuées à la fin du round, et le prochain ensemble de validateurs est sélectionné. Pour plus de détails sur le fonctionnement de l’élection des validateurs, reportez-vous à la section [élection des validateurs](./validator-election.md).
 
-Vous pouvez vérifier le statut des validateurs sur le site de staking. Les validateurs élus sont marqués Active/Normal. L'ensemble des validateurs est mis à jour chaque jour à 00:00 UTC.
+Vous pouvez vérifier le statut des validateurs sur le site de staking. Les validateurs élus sont marqués Active/Normal. L'ensemble des validateurs est mis à jour chaque jour à **00:00 UTC**.
 
 ![validator-register-form](../../../../../../static/img/validator/register/validator-register-3.avif)
 

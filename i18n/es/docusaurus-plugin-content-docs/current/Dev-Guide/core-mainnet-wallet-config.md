@@ -1,10 +1,10 @@
 ---
-sidebar_label: Cadena principal de la red Core
+sidebar_label: Core Mainnet
 hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# Conectarse a Core Chain Mainnet
+# Connect to Core Mainnet
 
 ---
 
@@ -113,5 +113,5 @@ La red Core ahora está agregada a su MetaMask.
 4. Después de realizar los pasos anteriores, podrás ver la red Core la próxima vez que accedas al selector de redes.
 
 :::info
-Si tiene un error o tiene dificultades para agregar la red, solicite ayuda en el canal de "soporte" en [Core Discord] (https://discord.gg/coredao), siempre estamos disponibles para ayudarlo.
+Si tiene un error o tiene dificultades para agregar la red, solicite ayuda en el canal de "soporte" en [Core Discord](https://discord.gg/coredao), siempre estamos disponibles para ayudarlo.
 :::

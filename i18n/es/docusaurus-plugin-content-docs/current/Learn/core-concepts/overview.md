@@ -54,7 +54,7 @@ En alineación con Bitcoin, Satoshi Plus desbloquea la tasa libre de riesgo de B
 
 ## Estado del ecosistema Core
 
-Core alberga un ecosistema BTCfi sólido y en crecimiento. Muchos protocolos en Core se centran en Bitcoin y derivados de Bitcoin (es decir, activos nativos de Bitcoin basados ​​en Bitcoin, como los NFT de Ordinals). Bitcoin es en gran medida un activo infrautilizado, ya que la programabilidad limitada de Bitcoin Script dificulta la activación de Bitcoin en protocolos DeFi convencionales mientras se mantiene la custodia de los activos. Con un mecanismo de consenso integrado con el propio consenso de Bitcoin, Core tiene como objetivo proporcionar un entorno DeFi para que los protocolos utilicen activos basados ​​en Bitcoin con suposiciones de confianza mínimas. Además, subvenciones y programas de creación como [Core Wishlist](https://github.com/coredao-org/core-community-contributions/blob/main/Core-Wishlist.md), [Core Ignition](https://ignition.coredao.org/) y [Core Ignition Builders' Incentive Program](https://coredao.org/initiatives/incentiveprogram) tienen como objetivo incentivar la construcción proyectos innovadores en Core y catalizar un mayor crecimiento en torno a Bitcoin DeFi. Explore el ecosistema Core en constante expansión [aquí](https://coredao.org/explore/ecosystem).
+Core alberga un ecosistema BTCfi sólido y en crecimiento. Muchos protocolos en Core se centran en Bitcoin y derivados de Bitcoin (es decir, activos nativos de Bitcoin basados ​​en Bitcoin, como los NFT de Ordinals). Bitcoin es en gran medida un activo infrautilizado, ya que la programabilidad limitada de Bitcoin Script dificulta la activación de Bitcoin en protocolos DeFi convencionales mientras se mantiene la custodia de los activos. Con un mecanismo de consenso integrado con el propio consenso de Bitcoin, Core tiene como objetivo proporcionar un entorno DeFi para que los protocolos utilicen activos basados ​​en Bitcoin con suposiciones de confianza mínimas. Además, subvenciones y programas de creación como [Core Wishlist](https://github.com/coredao-org/core-community-contributions/blob/main/Core-Wishlist.md), [Core Ignition](https:// ignition.coredao.org/) y [Core Ignition Builders' Incentive Program](https://coredao.org/initiatives/incentiveprogram) tienen como objetivo incentivar la construcción proyectos innovadores en Core y catalizar un mayor crecimiento en torno a Bitcoin DeFi. Explore el ecosistema Core en constante expansión [aquí](https://coredao.org/explore/ecosystem).
 
 ## Visión de futuro
 
@@ -72,7 +72,7 @@ La hoja de ruta Core está diseñada de acuerdo con el objetivo principal de des
 
 - **Bitcoin LST:** Esta característica permitiría a los apostadores de BTC obtener rendimiento de su Bitcoin y al mismo tiempo usar ese BTC para diversas aplicaciones en Core.
 
-- **Retomando:** Esta adición permitiría que otros protocolos se beneficien de la protección de Bitcoin de Core Chain.
+- **Restaking:** This addition would enable other protocols to benefit from Core’s Bitcoin protection.
 
 ## Conclusión
 

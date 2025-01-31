@@ -19,15 +19,15 @@ DPoW permite a los mineros de Bitcoin obtener una recompensa de segundo bloque a
 
 ## Cómo funciona DPoW en Satoshi Plus
 
-En la red Bitcoin, los mineros de Bitcoin generan poder hash para proteger la red Bitcoin, validar transacciones y ganar recompensas de Bitcoin. Para igualar sus recompensas con el tiempo, los mineros de Bitcoin a menudo aportan su poder de hash a los grupos de minería, que utilizan el poder de hash agregado para aumentar las posibilidades generales del grupo de extraer un bloque de Bitcoin y recibir Bitcoin a cambio. DPoW integra la minería de Bitcoin directamente en el protocolo de seguridad de Core Chain a través de un sistema de delegación. Aquí hay un desglose paso a paso de su funcionamiento:
+En la red Bitcoin, los mineros de Bitcoin generan poder hash para proteger la red Bitcoin, validar transacciones y ganar recompensas de Bitcoin. Para igualar sus recompensas con el tiempo, los mineros de Bitcoin a menudo aportan su poder de hash a los grupos de minería, que utilizan el poder de hash agregado para aumentar las posibilidades generales del grupo de extraer un bloque de Bitcoin y recibir Bitcoin a cambio. DPoW integra la minería de Bitcoin directamente en el protocolo de seguridad del Core a través de un sistema de delegación. Aquí hay un desglose paso a paso de su funcionamiento:
 
-1. **Integración minera**: los mineros de Bitcoin continúan con sus actividades mineras estándar, pero con el paso adicional de señalar su apoyo a Core Chain. Esto se logra incluyendo una transacción especial en los bloques de Bitcoin que extraen, que especifica el Core Validator que desean admitir.
+1. **Integración minera**: los mineros de Bitcoin continúan con sus actividades mineras estándar, pero con el paso adicional de señalar su apoyo a Core blockchain. Esto se logra incluyendo una transacción especial en los bloques de Bitcoin que extraen, que especifica el Core Validator que desean admitir.
 
-2. **Metadatos en bloques de Bitcoin**: en el bloque de Bitcoin minado, los mineros agregan metadatos en el campo `op_return`. Estos metadatos incluyen la dirección del Core Validator y la dirección para recibir recompensas de tokens CORE, delegando efectivamente una parte de su poder de hash a la red Core Chain.
+2. **Metadatos en bloques de Bitcoin**: en el bloque de Bitcoin minado, los mineros agregan metadatos en el campo `op_return`. Estos metadatos incluyen la dirección del Core Validator y la dirección para recibir recompensas de tokens CORE, delegando efectivamente una parte de su poder de hash a la red Core.
 
-3. **Soporte de validador**: al incluir esta información, los mineros delegan su poder computacional a los validadores en la cadena central. Estos Validadores utilizan el poder delegado para participar en la versión de validación y creación de bloques de la Core Chain.
+3. **Soporte de validador**: al incluir esta información, los mineros delegan su poder computacional a los validadores en Core. Estos validadores utilizan el poder delegado para participar en la versión de validación y creación de bloques de la cadena de bloques central.
 
-4. **Retransmisores**: Los encabezados de los bloques de Bitcoin llegan a Core Chain a través de los retransmisores de Core Chain. Cada repetidor ejecuta un cliente ligero en cadena (o utiliza un servicio existente similar) que sincroniza los bloques extraídos por el grupo de minería de Bitcoin con la red Core. Durante una ronda de 1 día, la red Core calcula el DPoW para cada validador contando la cantidad de bloques que los mineros delegaron a cada validador una semana antes. Si la ronda ocurre un jueves, por ejemplo, Core tabulará el poder de hash delegado a cada validador contando los bloques del jueves pasado.
+4. **Retransmisores**: Los retransmisores son responsables de monitorear la red Bitcoin y transmitir bloques y datos de transacciones a la red Core. Dentro de la red central, un cliente ligero BTC integrado en la cadena procesa los datos entrantes de los retransmisores y reenvía la información de delegación (incluido el poder hash y la participación sin custodia) al "Centro de delegación". El Centro de Delegación sirve como componente central responsable de gestionar y supervisar las delegaciones dentro de la red Central.  Durante una ronda de 1 día, la red Core calcula el DPoW para cada validador contando el número de bloques que los mineros delegaron a cada validador _una semana antes_. Si la ronda ocurre un jueves, por ejemplo, Core tabulará el poder de hash delegado a cada validador contando los bloques del _último_ jueves.
 
 5. **Mecanismo de recompensa**: a cambio de su contribución, los mineros reciben recompensas adicionales en forma de tokens CORE, además de las recompensas habituales de la minería de Bitcoin. Este sistema de doble recompensa incentiva a los mineros a participar en el proceso DPoW sin necesidad de desviar recursos de la minería de Bitcoin.
 
@@ -56,7 +56,7 @@ En la red Bitcoin, los mineros de Bitcoin generan poder hash para proteger la re
 
 - **Relación simbiótica:** Este sistema promueve beneficios mutuos para las redes Bitcoin y Core, fomentando un entorno cooperativo que fortalece el ecosistema blockchain.
 
-- **Eficiencia de recursos**: DPoW permite a los mineros maximizar la utilidad de sus recursos computacionales existentes. Al respaldar Core Chain mientras realizan sus operaciones habituales de minería de Bitcoin, los mineros pueden contribuir a dos redes simultáneamente sin gasto de energía adicional.
+- **Eficiencia de recursos**: DPoW permite a los mineros maximizar la utilidad de sus recursos computacionales existentes. Al respaldar la seguridad del ecosistema Core mientras realizan sus operaciones regulares de minería de Bitcoin, los mineros pueden contribuir a dos redes simultáneamente sin gasto de energía adicional.
 
 #### **Conclusión**
 

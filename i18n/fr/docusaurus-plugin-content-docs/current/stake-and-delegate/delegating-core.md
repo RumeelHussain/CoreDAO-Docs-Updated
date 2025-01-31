@@ -15,7 +15,9 @@ In this guide, we provide a step-by-step walkthrough on how to delegate your COR
 ## Site Web de Staking Core
 
 - Mainnet: [https://stake.coredao.org/](https://stake.coredao.org/)
-- Testnet: [https://stake.test.btcs.network/](https://stake.test.btcs.network/)
+- Testnet: 
+    - [https://stake.test.btcs.network/](https://stake.test.btcs.network/)
+    - [https://stake.test2.btcs.network/](https://stake.test2.btcs.network/)
 
 ## Guide étape par étape pour déléguer CORE
 
@@ -137,7 +139,7 @@ Si nous souhaitons annuler la délégation de notre CORE, vous devrez cliquer su
 ![image](https://github.com/user-attachments/assets/da7a3693-2799-4c04-8ba3-649c25694120)
 </p>
 
-## Réclamation des récompenses {#reclamation-des-recompenses}
+## Réclamation des récompenses
 
 Vous pouvez consulter les informations sur vos délégations actives en sélectionnant **My Staking** en haut à droite du site de staking. Les récompenses de délégation (staking) sont distribuées après chaque cycle à 00:00 UTC chaque jour.
 

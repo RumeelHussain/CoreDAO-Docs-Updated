@@ -53,5 +53,5 @@ En tant que wrapped Bitcoin natif sur Core, le coreBTC maintient une parité 1:1
 4. **États des Relayeurs:** Consultez la liste des relayeurs responsables de la transmission et de la vérification des données entre le réseau Bitcoin et la blockchain Core.
 
 :::note
-Consultez [la section FAQ de coreBTC](../../../../../../../i18n/fr/docusaurus-plugin-content-docs/current/FAQs/coreBTC-faqs.md) pour toute question que vous pourriez avoir.
+Consultez [la section FAQ de coreBTC](../../../FAQs/coreBTC-faqs.md) pour toute question que vous pourriez avoir.
 :::

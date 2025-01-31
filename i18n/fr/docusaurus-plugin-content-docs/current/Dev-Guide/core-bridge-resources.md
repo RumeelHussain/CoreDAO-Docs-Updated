@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ---
 
-Le [Pont Core](https://bridge.coredao.org/) est alimenté par LayerZero et permet des transferts d'actifs sans faille entre Core et le reste du monde de la blockchain. Le Pont Core se compose de deux parties : les contrats LayerZero sur Core qui facilitent les transferts inter-chaînes, et un ensemble de contrats de pont ou de tokens déployés à la fois sur Core et sur chaque blockchain à laquelle il est connecté. Le code de base audité du pont peut être trouvé [ici](https://github.com/LayerZero-Labs/wrapped-asset-bridge), et la liste complète des adresses de contrats de tokens de pont peut être trouvée [ici](/i18n/fr/docusaurus-plugin-content-docs/current/Dev-Guide/core-bridge-resources.md).
+Le [Pont Core](https://bridge.coredao.org/) est alimenté par LayerZero et permet des transferts d'actifs sans faille entre Core et le reste du monde de la blockchain. Le Pont Core se compose de deux parties : les contrats LayerZero sur Core qui facilitent les transferts inter-chaînes, et un ensemble de contrats de pont ou de tokens déployés à la fois sur Core et sur chaque blockchain à laquelle il est connecté. Le code de base audité du pont peut être trouvé [ici](https://github.com/LayerZero-Labs/wrapped-asset-bridge), et la liste complète des adresses de contrats de tokens de pont peut être trouvée [ici](core-bridge-resources.md).
 
 ### LayerZero
 
