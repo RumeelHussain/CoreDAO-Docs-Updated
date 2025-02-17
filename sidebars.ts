@@ -352,6 +352,12 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           collapsed: true,
           label: '📑 Testnet API Endpoints',
+          link: {
+            type: 'generated-index',
+            title: 'Core Scan API Documentation',
+            description: 'Explore the various Core Scan API Endpoints',
+           //slug: '/stakingapi/staking-api-docs',
+          },
           items: [ 
             require("./docs/stakingAPI/testnet/sidebar.ts")
           ]

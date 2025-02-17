@@ -79,25 +79,43 @@ const sidebar: SidebarsConfig = {
           className: "api-method get",
         },
       ]
-    },            
+    },
+    {
+      type: "category",
+      label: "Staking Round Details",
+      items: [
         {
           type: "doc",
           id: "stakingAPI/testnet/retrieve-latest-staking-round",
           label: "Latest Staking Round",
           className: "api-method get",
         },
+      ]
+    },              
+    {
+      type: "category",
+      label: "Validator Details",
+      items: [    
         {
           type: "doc",
           id: "stakingAPI/testnet/retrieve-validator-details",
           label: "Validator Details",
           className: "api-method get",
-        },        
+        }, 
+      ]
+    },
+    {
+      type: "category",
+      label: "RedeemScript",
+      items: [       
         {
           type: "doc",
           id: "stakingAPI/testnet/submit-redeem-script-for-staking-transaction",
-          label: "Submit RedeemScript",
+          label: "Submit RedeemScript for Staking",
           className: "api-method post",
         },
+      ]
+    }
   ],
 };
 
