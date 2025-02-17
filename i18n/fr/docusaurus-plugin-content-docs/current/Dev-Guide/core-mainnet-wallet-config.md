@@ -30,7 +30,7 @@ Il existe plusieurs façons d'ajouter les configurations du Mainnet Core à votr
 
 <img src="https://github.com/RumeelHussainbnb/CoreDAODocs/assets/93580180/591f9fe0-d23d-41e2-94fa-9d125b631d37" alt="mainnet-wallet-config-1" style={{zoom:"50%"}}/>
 
-2. Cliquez sur ‘Ajouter un réseau‘ en bas de la liste des réseaux
+2. Cliquez sur 'Ajouter un réseau' en bas de la liste des réseaux
 
 ![metmask-mainnet](../../../../../static/img/miannet-wallet-config/mainnet-wallet-config-2.webp)
 
@@ -50,7 +50,7 @@ Remplissez les informations de réseau suivantes et cliquez sur enregistrer pour
 
 ### Ajouter le réseau Core via Chainlist.org
 
-1. Rendez-vous sur chainlist.org et recherchez ‘_Core_’
+1. Rendez-vous sur chainlist.org et recherchez '_Core_’
 
 ![metmask-mainnet](../../../../../static/img/miannet-wallet-config/mainnet-wallet-config-4.webp)
 
@@ -58,11 +58,11 @@ Remplissez les informations de réseau suivantes et cliquez sur enregistrer pour
 
 ![metmask-mainnet](../../../../../static/img/miannet-wallet-config/mainnet-wallet-config-6.webp)
 
-3. Cliquez sur le bouton ‘_Ajouter à MetaMask‘_.
+3. Cliquez sur le bouton '_Ajouter à MetaMask'_.
 
 ![metmask-mainnet](../../../../../static/img/miannet-wallet-config/mainnet-wallet-config-7.webp)
 
-4. Approuvez l'action dans votre MetaMask en cliquant sur le bouton _‘Approuver’_.
+4. Approuvez l'action dans votre MetaMask en cliquant sur le bouton _'Approuver’_.
 
 ![metmask-mainnet](../../../../../static/img/miannet-wallet-config/mainnet-wallet-config-8.webp)
 
@@ -74,7 +74,7 @@ Le réseau Core est maintenant ajouté à votre MetaMask.
 
 ![metmask-mainnet](../../../../../static/img/miannet-wallet-config/mainnet-wallet-config-9.webp)
 
-2. Cliquez sur le bouton ‘_Ajouter le réseau Core_’
+2. Cliquez sur le bouton '_Ajouter le réseau Core_’
 
 ![metmask-mainnet](../../../../../static/img/miannet-wallet-config/mainnet-wallet-config-10.webp)
 
@@ -90,7 +90,7 @@ Le réseau Core est maintenant ajouté à votre MetaMask.
 
 ![metmask-mainnet](../../../../../static/img/miannet-wallet-config/mainnet-wallet-config-12.webp)
 
-2. Sélectionnez _‘Paramètres_‘:
+2. Sélectionnez _'Paramètres_':
 
 ![metmask-mainnet](../../../../../static/img/miannet-wallet-config/mainnet-wallet-config-13.webp)
 
@@ -98,7 +98,7 @@ Le réseau Core est maintenant ajouté à votre MetaMask.
 
 ![metmask-mainnet](../../../../../static/img/miannet-wallet-config/mainnet-wallet-config-14.webp)
 
-4. Appuyez sur ‘_Ajouter un réseau_’:
+4. Appuyez sur '_Ajouter un réseau_’:
 
 ![metmask-mainnet](../../../../../static/img/miannet-wallet-config/mainnet-wallet-config-15.webp)
 
@@ -113,5 +113,5 @@ Le réseau Core est maintenant ajouté à votre MetaMask.
 4. Après avoir suivi ces étapes, vous pourrez voir le réseau Core la prochaine fois que vous accéderez au sélecteur de réseau.
 
 :::info
-Si vous rencontrez une erreur ou avez des difficultés pour ajouter le réseau, demandez de l'aide dans le canal ‘support‘ du [Discord de Core](https://discord.gg/coredao). Nous sommes toujours disponibles pour vous aider.
+Si vous rencontrez une erreur ou avez des difficultés pour ajouter le réseau, demandez de l'aide dans le canal 'support' du [Discord de Core](https://discord.gg/coredao). Nous sommes toujours disponibles pour vous aider.
 :::

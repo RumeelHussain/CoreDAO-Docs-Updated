@@ -6,7 +6,7 @@ sidebar_position: 2
 
 # Redeem Staked Bitcoin or Claim CORE Rewards
 
-Core offers Bitcoin holders to stake their assets onto the Core blockchain to ear passive income in the form of CORE tokens. To learn how to stake your Bitcoin assets onto Core and earn rewards, follow our detailed [guide](./stake-btc-guide.md). After you have succesfully staked your Bitcoin on the Core blockchain, next up is to learn to claim your CORE rewards or redeem your staked Bitcoin. This detailed guide will be utilized when you see ‘**Redeem**’ appear under ‘**Action**’ on the delegated validator you chose previously or ‘**Claim**’ next to ‘**Delegated Hash & Core Rewards**’ and or ‘**Bitcoin Staking Rewards’**.
+Core offers Bitcoin holders to stake their assets onto the Core blockchain to ear passive income in the form of CORE tokens. To learn how to stake your Bitcoin assets onto Core and earn rewards, follow our detailed [guide](./stake-btc-guide.md). After you have succesfully staked your Bitcoin on the Core blockchain, next up is to learn to claim your CORE rewards or redeem your staked Bitcoin. This detailed guide will be utilized when you see '**Redeem**’ appear under '**Action**’ on the delegated validator you chose previously or '**Claim**’ next to '**Delegated Hash & Core Rewards**’ and or '**Bitcoin Staking Rewards’**.
 
 ## Reward Distribution Information
 
@@ -17,7 +17,7 @@ Core offers Bitcoin holders to stake their assets onto the Core blockchain to ea
 
 If your staking period has expired, redeem your staked Bitcoin assets from either Unisat or Xverse wallet(s). You must use the same wallet address during the staking process to redeem your expired staked Bitcoin.
 
-1. From any CORE screen, hover over your connected wallet in the top right corner → click **‘My Staking’**.
+1. From any CORE screen, hover over your connected wallet in the top right corner → click **'My Staking’**.
 
 ![native-staking-guide](../../../../static/img/native-staking/native-staking-18.avif)
 
@@ -25,7 +25,7 @@ If your staking period has expired, redeem your staked Bitcoin assets from eithe
 
 ![native-staking-guide](../../../../static/img/native-staking/native-staking-19.avif)
 
-3. You are now viewing the validators that you have previously delegated your staked Bitcoin to. Look for any validators that say ‘**Expired**’ under ‘**Redeem Time**’ and proceed to clicking ‘**Redeem**’ under ‘**Action**’.
+3. You are now viewing the validators that you have previously delegated your staked Bitcoin to. Look for any validators that say '**Expired**’ under '**Redeem Time**’ and proceed to clicking '**Redeem**’ under '**Action**’.
 
 ![native-staking-guide](../../../../static/img/native-staking/native-staking-20.avif)
 
@@ -35,7 +35,7 @@ If your staking period has expired, redeem your staked Bitcoin assets from eithe
 
 * Set your receiving Bitcoin Address to receive the unlocked Bitcoin. This does not need to be the same as the address that initiated the Bitcoin staking transaction.
 * Set your transaction speed priority
-* Click ‘**Create Transaction**’
+* Click '**Create Transaction**’
 
 ![native-staking-guide](../../../../static/img/native-staking/native-staking-22.avif)
 
@@ -43,11 +43,11 @@ If your staking period has expired, redeem your staked Bitcoin assets from eithe
 
 ## Claim CORE token rewards earned from Bitcoin Staking delegation
 
-1\. From any CORE screen, hover over your connected wallet in the top right corner, click ‘**My Staking**’.
+1\. From any CORE screen, hover over your connected wallet in the top right corner, click '**My Staking**’.
 
 ![native-staking-guide](../../../../static/img/native-staking/native-staking-23.avif)
 
-2. Click the ‘**Claim**’ button next to ‘**BTC Staking Rewards**’
+2. Click the '**Claim**’ button next to '**BTC Staking Rewards**’
 
 ![native-staking-guide](../../../../static/img/native-staking/native-staking-24.avif)
 

@@ -88,7 +88,7 @@ To delegate your CORE tokens, follow these steps:
 
 #### Step 2.2 Verifying delegated CORE
 
-Now that we’ve successfully delegated CORE, lets verify that our CORE is now being staked by hovering over our connected wallet in the top right corner, and clicking on the **My Staking** dropdown. We can see under the ‘Core Delegated’ column that we now have 1 CORE delegated, or 1 CORE staked:
+Now that we’ve successfully delegated CORE, lets verify that our CORE is now being staked by hovering over our connected wallet in the top right corner, and clicking on the **My Staking** dropdown. We can see under the 'Core Delegated’ column that we now have 1 CORE delegated, or 1 CORE staked:
 
 <p align="center">
 ![image](https://github.com/user-attachments/assets/d61755d2-177b-485c-9daa-5cc5a863b60d)

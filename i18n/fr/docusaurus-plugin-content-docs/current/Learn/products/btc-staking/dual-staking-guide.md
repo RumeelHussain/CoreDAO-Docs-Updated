@@ -153,7 +153,7 @@ Le Dual Staking est une amélioration du staking de BTC Non-custodial de Core, p
 ![dual-staking-on-core](../../../../../../../static/img/dual-staking/dual-staking-14.png)
 </p>
 
-16. Enfin, cliquez sur ‘Confirm‘ pour compléter la transaction.
+16. Enfin, cliquez sur 'Confirm' pour compléter la transaction.
 
 **Confirmer la Sortie OP\_Return**
 

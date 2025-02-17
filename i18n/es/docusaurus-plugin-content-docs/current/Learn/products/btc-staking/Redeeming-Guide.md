@@ -17,7 +17,7 @@ Core ofrece a los poseedores de Bitcoin la posibilidad de apostar sus activos en
 
 Si tu período de staking ha expirado, redime tus activos de Bitcoin apostado desde tu billetera Unisat o Xverse. Debes usar la misma dirección de billetera durante el proceso de staking para redimir tu Bitcoin apostado expirado.
 
-1. Desde cualquier pantalla de CORE, pasa el cursor sobre tu billetera conectada en la esquina superior derecha → haz clic en **‘Mi Staking’**.
+1. Desde cualquier pantalla de CORE, pasa el cursor sobre tu billetera conectada en la esquina superior derecha → haz clic en **'Mi Staking’**.
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-18.avif)
 
@@ -25,7 +25,7 @@ Si tu período de staking ha expirado, redime tus activos de Bitcoin apostado de
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-19.avif)
 
-3. Ahora verás los validadores a los que previamente delegaste tu Bitcoin apostado. Busca cualquier validador que diga ‘**Expirado**’ debajo de ‘**Hora de Redención**’ y procede a hacer clic en ‘**Redimir**’ bajo ‘**Acción**’.
+3. Ahora verás los validadores a los que previamente delegaste tu Bitcoin apostado. Busca cualquier validador que diga '**Expirado**’ debajo de '**Hora de Redención**’ y procede a hacer clic en '**Redimir**’ bajo '**Acción**’.
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-20.avif)
 
@@ -35,7 +35,7 @@ Si tu período de staking ha expirado, redime tus activos de Bitcoin apostado de
 
 - Establece tu Dirección de Bitcoin receptora para recibir el Bitcoin desbloqueado. Esta no necesita ser la misma que la dirección que inició la transacción de staking de Bitcoin.
 - Establece tu prioridad de velocidad de transacción.
-- Haz clic en ‘**Crear Transacción**’.
+- Haz clic en '**Crear Transacción**’.
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-22.avif)
 
@@ -43,11 +43,11 @@ Si tu período de staking ha expirado, redime tus activos de Bitcoin apostado de
 
 ## Reclamar Recompensas en Tokens CORE Ganadas de la Delegación de Staking de Bitcoin
 
-1\. Desde cualquier pantalla de CORE, pasa el cursor sobre tu billetera conectada en la esquina superior derecha, haz clic en ‘**Mi Staking**’.
+1\. Desde cualquier pantalla de CORE, pasa el cursor sobre tu billetera conectada en la esquina superior derecha, haz clic en '**Mi Staking**’.
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-23.avif)
 
-2. Haz clic en el botón ‘**Reclamar**’ junto a ‘**Recompensas de Staking de BTC**’.
+2. Haz clic en el botón '**Reclamar**’ junto a '**Recompensas de Staking de BTC**’.
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-24.avif)
 

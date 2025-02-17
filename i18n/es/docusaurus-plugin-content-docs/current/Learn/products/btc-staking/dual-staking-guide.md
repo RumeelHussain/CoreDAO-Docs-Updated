@@ -145,7 +145,7 @@ Dual Staking es una mejora del staking No Custodial de BTC de Core, que permite 
   - La cantidad mínima para delegar es 0.01 Bitcoin
   - En nuestro ejemplo, delegaremos 0.05 Bitcoin, lo que cumple con este requisito
 - Establecer el tiempo de bloqueo determina cuándo tu Bitcoin apostado será desbloqueado y estará disponible nuevamente para su redención o re-delegación.
-  - Selecciona dentro del cuadro de tiempo de bloqueo para ingresar valores, o haz clic en el ícono del calendario para seleccionar la fecha y haz clic en ‘OK’ para proceder.
+  - Selecciona dentro del cuadro de tiempo de bloqueo para ingresar valores, o haz clic en el ícono del calendario para seleccionar la fecha y haz clic en 'OK’ para proceder.
   - El tiempo de bloqueo predeterminado se establece con un mes de anticipación.
 - Especificar la velocidad de prioridad de la red para tu transacción.
 
@@ -153,7 +153,7 @@ Dual Staking es una mejora del staking No Custodial de BTC de Core, que permite 
 ![doble participación en el núcleo](../../../../../../../static/img/dual-staking/dual-staking-14.png)
 </p>
 
-16. Finalmente, haz clic en ‘Confirmar’ para completar la transacción.
+16. Finalmente, haz clic en 'Confirmar’ para completar la transacción.
 
 **Confirmar Salida OP\_Return**
 

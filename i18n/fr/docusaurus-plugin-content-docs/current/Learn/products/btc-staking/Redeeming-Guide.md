@@ -6,7 +6,7 @@ sidebar_position: 2
 
 # Récupérer des Bitcoins Stakés ou Réclamer des Récompenses en CORE
 
-Core offre aux détenteurs de Bitcoin la possibilité de staker leurs actifs sur la blockchain Core pour gagner un revenu passif sous forme de tokens CORE. Pour apprendre à staker vos actifs Bitcoins sur Core et gagner des récompenses, suivez notre [guide](./stake-btc-guide.md) détaillé. Après avoir staké vos Bitcoins avec succès sur la blockchain Core, vous devez ensuite apprendre à réclamer vos récompenses CORE ou à récupérer vos Bitcoin stakés. Ce guide détaillé vous sera utile lorsque vous verrez ‘**Récupérer**’ apparaître sous ‘**Action**’ pour le validateur délégué que vous avez choisi précédemment ou **’Réclamer**’ à côté de **’Délégation de Hash & Récompenses Core**’ et/ou **’Récompenses de Staking Bitcoin**’.
+Core offre aux détenteurs de Bitcoin la possibilité de staker leurs actifs sur la blockchain Core pour gagner un revenu passif sous forme de tokens CORE. Pour apprendre à staker vos actifs Bitcoins sur Core et gagner des récompenses, suivez notre [guide](./stake-btc-guide.md) détaillé. Après avoir staké vos Bitcoins avec succès sur la blockchain Core, vous devez ensuite apprendre à réclamer vos récompenses CORE ou à récupérer vos Bitcoin stakés. Ce guide détaillé vous sera utile lorsque vous verrez '**Récupérer**’ apparaître sous '**Action**’ pour le validateur délégué que vous avez choisi précédemment ou **’Réclamer**’ à côté de **’Délégation de Hash & Récompenses Core**’ et/ou **’Récompenses de Staking Bitcoin**’.
 
 ## Informations sur la Distribution des Récompenses
 
@@ -17,7 +17,7 @@ Core offre aux détenteurs de Bitcoin la possibilité de staker leurs actifs sur
 
 Si votre période de staking a expiré, vous pouvez récupérer vos Bitcoins stakés via le(s) portefeuille(s) Unisat ou Xverse. Vous devez utiliser la même adresse de portefeuille que celle utilisée lors du processus de staking pour récupérer vos Bitcoins stakés expirés.
 
-1. Depuis n'importe quel écran CORE, survolez votre portefeuille connecté dans le coin supérieur droit → cliquez sur **‘Mes Stakings**‘.
+1. Depuis n'importe quel écran CORE, survolez votre portefeuille connecté dans le coin supérieur droit → cliquez sur **'Mes Stakings**'.
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-18.avif)
 
@@ -25,7 +25,7 @@ Si votre période de staking a expiré, vous pouvez récupérer vos Bitcoins sta
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-19.avif)
 
-3. Vous verrez maintenant les validateurs auxquels vous avez précédemment délégué vos Bitcoins stakés. Recherchez les validateurs affichant ‘**Expiré**‘ sous ‘**Temps de Récupération**‘, puis cliquez sur ‘**Récupérer**‘ sous ‘**Action**‘.
+3. Vous verrez maintenant les validateurs auxquels vous avez précédemment délégué vos Bitcoins stakés. Recherchez les validateurs affichant '**Expiré**' sous '**Temps de Récupération**', puis cliquez sur '**Récupérer**' sous '**Action**'.
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-20.avif)
 
@@ -35,7 +35,7 @@ Si votre période de staking a expiré, vous pouvez récupérer vos Bitcoins sta
 
 - Définissez votre adresse de réception Bitcoin pour recevoir les Bitcoin déverrouillés. Elle ne doit pas nécessairement être la même que celle ayant initié la transaction de staking Bitcoin.
 - Choisissez la priorité de la vitesse de transaction
-- Cliquez sur ‘**Créer une Transaction**’
+- Cliquez sur '**Créer une Transaction**’
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-22.avif)
 
@@ -43,11 +43,11 @@ Si votre période de staking a expiré, vous pouvez récupérer vos Bitcoins sta
 
 ## Réclamer des Récompenses en CORE Gagnées avec la Délégation de Bitcoin Staké
 
-1\. Depuis n'importe quel écran CORE, survolez votre portefeuille connecté dans le coin supérieur droit, et cliquez sur ‘**Mes Stakings**’.
+1\. Depuis n'importe quel écran CORE, survolez votre portefeuille connecté dans le coin supérieur droit, et cliquez sur '**Mes Stakings**’.
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-23.avif)
 
-2. Cliquez sur le bouton ‘**Réclamer**’ à côté de ‘**Récompenses de Staking BTC**’
+2. Cliquez sur le bouton '**Réclamer**’ à côté de '**Récompenses de Staking BTC**’
 
 ![native-staking-guide](../../../../../../../static/img/native-staking/native-staking-24.avif)
 

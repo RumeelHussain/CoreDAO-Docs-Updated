@@ -24,9 +24,13 @@ There are multiple ways to add Core Mainnet configurations to your MetaMask Wall
 ### Adding Network Manually
 1. Click on the network selector button (the downward facing arrow next to the current network). This will display a list of networks to which you’re already connected.
 
-<img src="https://github.com/RumeelHussainbnb/CoreDAODocs/assets/93580180/591f9fe0-d23d-41e2-94fa-9d125b631d37" alt="mainnet-wallet-config-1" style={{zoom:"50%"}}/>
+<!-- <img src="https://github.com/RumeelHussainbnb/CoreDAODocs/assets/93580180/591f9fe0-d23d-41e2-94fa-9d125b631d37" alt="mainnet-wallet-config-1" style={{zoom:"50%"}}/> -->
 
-2. Click ‘Add network’ at the bottom of the network list
+<div align="center">
+    <img src="https://github.com/RumeelHussainbnb/CoreDAODocs/assets/93580180/591f9fe0-d23d-41e2-94fa-9d125b631d37" width="50%">
+</div>
+
+2. Click 'Add network’ at the bottom of the network list
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-2.webp)
 
@@ -46,7 +50,7 @@ Fill in the following network information and click `save` to add the network.
 4. After performing the above steps, you will be able to see the Core network the next time you access the network selector.
 
 ### Adding the Core network via Chainlist.org
-1. Go to chainlist.org and search for ‘_Core_’
+1. Go to chainlist.org and search for '_Core_’
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-4.webp)
 
@@ -54,11 +58,11 @@ Fill in the following network information and click `save` to add the network.
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-6.webp)
 
-3. Click the ‘_Add to MetaMask_’ button.
+3. Click the '_Add to MetaMask_’ button.
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-7.webp)
 
-4. Approve the action in your MetaMask by clicking the _‘Approve’_ button.
+4. Approve the action in your MetaMask by clicking the _'Approve’_ button.
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-8.webp)
 
@@ -69,7 +73,7 @@ The Core network is now added to your MetaMask.
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-9.webp)
 
-2. Click the ‘_Add Core Network_’ button
+2. Click the '_Add Core Network_' button
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-10.webp)
 
@@ -84,7 +88,7 @@ The Core network is now added to your MetaMask.
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-12.webp)
 
-2. Select _‘Settings’_:
+2. Select _'Settings’_:
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-13.webp)
 
@@ -92,7 +96,7 @@ The Core network is now added to your MetaMask.
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-14.webp)
 
-4. Tap on ‘_Add Network_’:
+4. Tap on '_Add Network_’:
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-15.webp)
 
@@ -108,5 +112,5 @@ The Core network is now added to your MetaMask.
 4. After performing the above steps, you will be able to see the Core network the next time you access the network selector.
 
 :::info 
-If you happen to have an error, or are struggling with adding the network please ask for help in the ‘support’ channel in the [Core Discord](https://discord.gg/coredao), we are always available to help.
+If you happen to have an error, or are struggling with adding the network please ask for help in the 'support’ channel in the [Core Discord](https://discord.gg/coredao), we are always available to help.
 :::

@@ -143,7 +143,7 @@ Dual staking is an enhancement to Core’s Non-custodial BTC staking, allowing u
   * The minimum amount to delegate is 0.01 Bitcoin  
   * In our example, we will be delegating 0.05 Bitcoin, which satisfies this requirement  
 * Setting the lock time determines when your staked Bitcoin will be unlocked and available again for redemption or re-delegation.  
-  * Select inside the lock time box to input values, or click on the calendar icon to select the date and click ‘OK’ to proceed.  
+  * Select inside the lock time box to input values, or click on the calendar icon to select the date and click 'OK’ to proceed.  
   * The default lock time is set to a month in advance.  
 * Specify the network priority speed for your transaction
 
@@ -151,7 +151,7 @@ Dual staking is an enhancement to Core’s Non-custodial BTC staking, allowing u
 ![dual-staking-on-core](../../../../static/img/dual-staking/dual-staking-14.png)
 </p>
 
-16. Finally, click ‘Confirm’ to complete the transaction.
+16. Finally, click 'Confirm’ to complete the transaction.
 
 **Confirm OP\_Return Output** 
 

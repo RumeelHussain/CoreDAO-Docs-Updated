@@ -40,7 +40,7 @@ Une fois que vous avez configuré votre portefeuille MetaMask, vous pouvez l'uti
 
 #### Ajouter le réseau Core via Chainlist.org
 
-1. Rendez-vous sur Chainlist.org et recherchez ‘_core blockchain_’. Assurez-vous de cocher l'option _Inclure les Testnets_.
+1. Rendez-vous sur Chainlist.org et recherchez '_core blockchain_’. Assurez-vous de cocher l'option _Inclure les Testnets_.
 
 ![chainlist-testnet-connect-metmask](../../../../../static/img/testnet-wallet-config/chainlist-testnet-connect-1.png)
 
@@ -52,7 +52,7 @@ Une fois que vous avez configuré votre portefeuille MetaMask, vous pouvez l'uti
 
 ![chainlist-testnet-connect-metmask](../../../../../static/img/testnet-wallet-config/chainlist-testnet-connect-3.png)
 
-4. Cliquez sur le bouton _‘Changer de Réseau_‘ pour basculer vets le Core Testnet sur MetaMask.
+4. Cliquez sur le bouton _'Changer de Réseau_' pour basculer vets le Core Testnet sur MetaMask.
 
 ![chainlist-testnet-connect-metmask](../../../../../static/img/testnet-wallet-config/chainlist-testnet-connect-4.png)
 
