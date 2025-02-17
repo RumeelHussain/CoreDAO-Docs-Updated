@@ -24,11 +24,9 @@ There are multiple ways to add Core Mainnet configurations to your MetaMask Wall
 ### Adding Network Manually
 1. Click on the network selector button (the downward facing arrow next to the current network). This will display a list of networks to which you’re already connected.
 
-<!-- <img src="https://github.com/RumeelHussainbnb/CoreDAODocs/assets/93580180/591f9fe0-d23d-41e2-94fa-9d125b631d37" alt="mainnet-wallet-config-1" style={{zoom:"50%"}}/> -->
-
-<div align="center">
-    <img src="https://github.com/RumeelHussainbnb/CoreDAODocs/assets/93580180/591f9fe0-d23d-41e2-94fa-9d125b631d37" width="50%">
-</div>
+<img src="https://github.com/RumeelHussainbnb/CoreDAODocs/assets/93580180/591f9fe0-d23d-41e2-94fa-9d125b631d37" 
+     alt="mainnet-wallet-config-1" 
+     style="width:50%;" />
 
 2. Click 'Add network’ at the bottom of the network list
 
