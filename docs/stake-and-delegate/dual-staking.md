@@ -13,16 +13,15 @@ sidebar_position: 2
 
 To further enhance yield generation from Non-Custodial Bitcoin staking at scale, **Dual Staking** unlocks higher yield tiers by staking Bitcoin and CORE simultaneously. Since daily CORE emissions are fixed, those who stake CORE alongside Bitcoin earn higher reward tiers than those staking Bitcoin alone. The percentage of boost on yield is determined by staking CORE above multiple defined thresholds, with each threshold corresponding to increasing tiers of Bitcoin staking rewards. By linking higher Bitcoin staking rewards with the volume of CORE tokens staked, this approach encourages Bitcoin stakers to make a deeper commitment to the Core ecosystem. It maximizes the yield returns for committed users. 
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
   <iframe
     src="https://www.youtube.com/embed/zqzGoQwT9Rs?si=HRHOIRc2viLKHP1g"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
   ></iframe>
 </div>
-
 
 ## How does Dual Staking Work?
 
